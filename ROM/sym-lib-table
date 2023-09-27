@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CPCROM-rescue)(type Legacy)(uri ${KIPRJMOD}/CPCROM-rescue.lib)(options "")(descr ""))
+)

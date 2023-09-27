@@ -1,0 +1,8 @@
+Source:,C:\Dropbox\InfoLaptop\Bread80\CPC\CPCModular\ROM\CPCROM.sch,,,,,
+Date:,01/02/2022 15:57,,,,,
+Tool:,Eeschema (5.1.7)-1,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,
+Component Count:,26,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
+"IC103, ",1,SST39SF040,SST39SF040,Package_DIP:DIP-32_W15.24mm_Socket,Silicon Storage Technology (SSF) 512k x 8 Flash ROM,
+,,ZIF Socket,,,,

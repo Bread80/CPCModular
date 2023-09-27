@@ -1,0 +1,97 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 60F73A59
+P 8250 3500
+F 0 "C?" H 8365 3546 50  0000 L CNN
+F 1 "C" H 8365 3455 50  0000 L CNN
+F 2 "" H 8288 3350 50  0001 C CNN
+F 3 "~" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker SP301
+U 1 1 60F740E6
+P 1000 2400
+F 0 "SP301" H 963 1983 50  0000 C CNN
+F 1 "Speaker - 8ohm" H 963 2074 50  0000 C CNN
+F 2 "" H 1000 2200 50  0001 C CNN
+F 3 "~" H 990 2350 50  0001 C CNN
+	1    1000 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F747E6
+P 1300 2450
+F 0 "#PWR?" H 1300 2200 50  0001 C CNN
+F 1 "GND" H 1305 2277 50  0001 C CNN
+F 2 "" H 1300 2450 50  0001 C CNN
+F 3 "" H 1300 2450 50  0001 C CNN
+	1    1300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2400 1300 2400
+Wire Wire Line
+	1300 2400 1300 2450
+$Comp
+L Device:C C902
+U 1 1 60F758BC
+P 1700 2550
+F 0 "C902" H 1585 2504 50  0000 R CNN
+F 1 "0.088" H 1585 2595 50  0000 R CNN
+F 2 "" H 1738 2400 50  0001 C CNN
+F 3 "~" H 1700 2550 50  0001 C CNN
+	1    1700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F75A8C
+P 1700 2700
+F 0 "#PWR?" H 1700 2450 50  0001 C CNN
+F 1 "GND" H 1705 2527 50  0001 C CNN
+F 2 "" H 1700 2700 50  0001 C CNN
+F 3 "" H 1700 2700 50  0001 C CNN
+	1    1700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C304
+U 1 1 60F75F4A
+P 1750 1950
+F 0 "C304" H 1868 1996 50  0000 L CNN
+F 1 "10v100" H 1868 1905 50  0000 L CNN
+F 2 "" H 1788 1800 50  0001 C CNN
+F 3 "~" H 1750 1950 50  0001 C CNN
+	1    1750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C303
+U 1 1 60F7674C
+P 1500 2300
+F 0 "C303" V 1245 2300 50  0000 C CNN
+F 1 "10v100" V 1336 2300 50  0000 C CNN
+F 2 "" H 1538 2150 50  0001 C CNN
+F 3 "~" H 1500 2300 50  0001 C CNN
+	1    1500 2300
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

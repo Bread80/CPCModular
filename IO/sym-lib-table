@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CPCIO-rescue)(type Legacy)(uri ${KIPRJMOD}/CPCIO-rescue.lib)(options "")(descr ""))
+)
