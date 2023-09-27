@@ -4,7 +4,7 @@
 
 ***This project is an unfinished work in progress. It currently has bugs and not all the features have been tested!
 
-The current modules are designed to fit a slightly modified RC2014 Pro backplane. In the text below I shall explain the current status of the project, workarounds needed to get it running and basic build details. Due to the work in progress status of the project this document will be intentionally terse.
+The current modules are designed to fit a slightly modified RC2014 Pro backplane. In the text below I shall explain the current status of the project, workarounds needed to get it running and basic build details. Due to the work in progress status of the project this document will be intentionaly terse.
 
 ##The modules
 
@@ -26,9 +26,9 @@ This is a slightly modified RC2014 "Z80 CPU Module". Modification:
 
 This board contains 512Kb NORFLASH. It includes circuitry to enable the flash to be burned in situ (untested). Config:
 * A jumper needs to be installed bridging pin 2 of LK4 and pin 2 of LK5.
-* To enable flash burning, install links LK1, LK2 and LK3. Otherwise leave these empty.
+* To enable flash burning, install links LK1, LK2 and LK3. Otherwise leave open.
 * My notes for writing to the Flash (taken from the schematic file) are:
-"!!!
+!!!
 There is no way to disable memory writes on the standard CPC system. Therefore ANY 
 memory writes which we do to ROM while WRITE_EN is active will also write to RAM.
 
@@ -48,9 +48,9 @@ commands sent to the ROM though, as these will still trash data underneath).
 2) Turn on write enable for the ROM
 3) Write the needed data to ROM.
 4) Turn off write enable for the ROM
-5) Write the original data back to ROM."
+5) Write the original data back to ROM.
 
-* The ROM (NORFLASH) can hold up to 31 ROMS plus the firmware ROM. When programming the chip, the Firmware needs to go into slot 31 (starting at address &7c000). BASIC (is installed) needs to go into slot 0 (address &00000). ROM slots are located every &4000 bytes, I.e &00000, &04000, &08000, &0C000, &10000 etc.
+* The ROM (NORFLASH) can hold up to 31 ROMS plus the firmware ROM. When programming the chip, the Firmware needs to go into slot 31 (starting at address &7c000). BASIC (if installed) needs to go into slot 0 (address &00000). ROM slots are located every &4000 bytes, I.e &00000, &04000, &08000, &0C000, &10000 etc.
 * If burning ROMs with the XGPro software:
   1) Use Select IC to select the IC being used (SST39FS040).
   2) Click LOAD toolbar button.
@@ -69,13 +69,14 @@ commands sent to the ROM though, as these will still trash data underneath).
 
 This board houses the gate array and video output.
 * On JP901 the DISPEN and HSYNC signals are swapped compared to those on the equivalent header on the RAM-Control board. This is best fixed on the RAM-Control board (see below).
-* The video out circuit is that from the CPC464 but, somehow, I've used component values from the CPC6128 but minus the capacitors on the '6128. This porbably doesn't make a significant difference.
+* The video out circuit is that from the CPC464 but, somehow, I've used component values from the CPC6128 but minus the capacitors on the '6128. This probably doesn't make a significant difference.
 * In my testing I'm using the same SCART to HDMI adapter I normally use for Amstrads but here it shows a black and white image, or no image at all. This appears to be an issue between the PSU used by the cable and the adapter. It can be fixed by feeding 5V power to the cable from the CPC Modular board.
-* The board includes footprints for both 40007 and 40010 gate arrays (and a 40008 should also work). The footprints overlap to save space. You should be able to include sockets for both by separating the two rows of pins and removing the webbing between them. But the footprints are a little too close together for this.
+* The board includes footprints for both 40007 and 40010 gate arrays (and a 40008 should also work). The footprints overlap to save space. You should be able to include sockets for both by separating the two rows of pins and removing the webbing between them, however, the footprints are a little too close together to do this easily.
+* The holes in the footprint for the DIN socket are a little too small.
 
 #RAM-Control
 
-This board houses the link between the video data bus and the CPU data bus, massages the signals to make them quitable for the SRAM memory and houses contains the optional parts for memories greater than 64k (untested).
+This board houses the link between the video data bus and the CPU data bus, massages the signals to make them suitable for the SRAM memory and houses the optional components required for memories greater than 64k (untested).
 * The circuit driving /RAMOE is incorrect. To fix it:
   1) Cut the trace between U192 pins 1 and 13
   2) Cut the trace between U192 pin 11 and U193 pin 1
@@ -90,6 +91,7 @@ This board houses the link between the video data bus and the CPU data bus, mass
 * To use > 64k RAM leave LK5, LK6, LK7 open and install IC118 and U194. IC118 is a standard Amstrad HAL/PAL.
 
 The correct circuit to drive /RAMOE is:
+
 XCPU_AD-----|
             |--
 /XCPU_AD--     AND---/ROMOE
@@ -99,12 +101,12 @@ XCPU_AD-----|
 In text form:
 /ROMOE := XCPU_AD AND (/XCPU_AD OR /RAMRD)
 
-XCPU_AD can be obtained from U195 pin 8.
+XCPU_AD can be sourced from U195 pin 8.
 
 #RAM
 
 This board houses the 6845 CRTC, address multiplexers and 512Kb SRAM. There are no issues here, and no config is necessary.
-* Headers can be installed for CURSOR and LPEN if required. They probbaly aren't.
+* Headers can be installed for CURSOR and LPEN if required. They probably aren't.
 
 #IO
 
@@ -113,7 +115,7 @@ This board houses the 8255 PIO and tape interface. Solder links and jumpers are 
 * On the rear of the board find the solder links just above the address pins. On each link you need to solder the 'high' address pad (labelled A7(sic) to A15) to the central pad. The 'low' address pads (A0..A7) must NOT connected to the centre pads.
 * On the front of the board find the links located between  U1 and D302. You need to jumper the 'low' link (to the centre pin) for the link labelled A3, and the high link (to the centre pin) for the others (A2, A4, A5, A6, A7).
 * Find the links located between C315 and J901. The configure which signals are directed to the jack sockets and which are directed to the backplane. The recommended setup is:
-  1) Install links between the INT(ernal) and middle pins for TO, TI and /MO (Tape out, Tape in and Motor).
+  1) Install links between the INT(ernal) and middle pins for TO, TI and /MO (Tape Out, Tape In and Motor).
   2) Leave the /EXP link open.
 * J901 allows access to various 8255 input signals. By default all these lines have pull-ups and can be ignored.
   1) RG0, RG1, RG2 are the region setting.
@@ -126,24 +128,40 @@ This board houses the 8255 PIO and tape interface. Solder links and jumpers are 
 
 This board houses the AY-3-8910 sound generator and associated outputs, plus the keyboard and joystick connectors.
 * As noted for the IO board: You should mount the inter-board connector (J902) on the top of this board, not the rear as shown in the silkscreen.
-* The board has the ability to use an on-board oscilator for the AY's clock input. In the CPC Modular: Omit X1 and install a jumper at the CLK2 end of JP3 (which configures the board to use the clock signal from the gate array send through the backplane).
+* The board has the ability to use an on-board oscillator for the AY's clock input. In the CPC Modular: Omit X1 and install a jumper at the CLK2 end of JP3 (which configures the board to use the clock signal from the gate array send through the backplane).
 * The jumpers above J103 (audio out jack) allow various audio signals to be sent to a variety of backplane pins. In most cases these can be left open. Note that some of the settings may conflict with tape signals routed via the backplane on the IO board.
 * If an audio jack is installed the LEFT and RIGHT signals will NOT be sent to the backplane (if configured to do so - see previous item). However the audio MIX will still be sent (if configured so).
 * CP2 is the keyboard connector. This uses the same pinout as the original Amstrad CPC464 (PCB keyboard).
 * J102 is the joystick connector. The connector here is mounted a little too 'inboard' and could short a PCB in the next socket.
 
-#Other Items
+#Links
 
-HAL: Mine
-HAL: McArti's
-GA: FPGA version
-GA: Mine
-Links to ROMs
+HAL/PAL:
+* Code for original: https://www.cpcwiki.eu/index.php/PAL16L8
+* WiP replacement: https://github.com/Bread80/GreenHAL
+* WiP replacement: https://www.cpcwiki.eu/forum/index.php?msg=231084
 
-#Licence and copyright
+Gate Array:
+* WiP FPGA based replacement: https://github.com/codedchip/AMSGateArray
+
+ROM Images:
+https://www.cpcwiki.eu/index.php/ROM_List
+
+#Licence, Copyright and Contact Details
+
+Licence: CERN-OHL-P
+Copyright © Mike Sutton, 2023
+Website: https://bread80.com
+Social media (Mastodon): https://mstdn.social/@bread80
 
 
-#Notes - ignore them
+
+
+#Notes
+
+There's nothing useful beyond here. But if you've made it this far you'll probably keep going anyway.
+
+
 
 Signal lines
 ------------
