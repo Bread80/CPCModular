@@ -30,27 +30,18 @@ This board contains 512Kb NORFLASH. It includes circuitry to enable the flash to
 * A jumper needs to be installed bridging pin 2 of LK4 and pin 2 of LK5.
 * To enable flash burning, install links LK1, LK2 and LK3. Otherwise leave open.
 * My notes for writing to the Flash (taken from the schematic file) are:
-!!!
-There is no way to disable memory writes on the standard CPC system. Therefore ANY 
-memory writes which we do to ROM while WRITE_EN is active will also write to RAM.
-
-However, since the ROM maps to any and all memory banks this adds a certain 
-amount of flexibility. Also note that reading from ROM is disabled whilst writing is 
-enabled. This means we can read from the RAM 'underneath' the ROM while the ROM 
-is active.
-
-My recommended programming procedure is to write to the ROM using video RAM 
-addresses, however the ROM could be writting using addresses in bank 1 (&4000-
-&7fff) if that memory range does not contain meaningful data. (If the data to be 
-written is already in this address range then the programmer can simply read the data 
-(RAM) and then write (ROM) at the same address. Care needs to be taking with 
-commands sent to the ROM though, as these will still trash data underneath).
-
-1) Read the RAM byte at the address to be programmed.
-2) Turn on write enable for the ROM
-3) Write the needed data to ROM.
-4) Turn off write enable for the ROM
-5) Write the original data back to ROM.
+> !!!
+> There is no way to disable memory writes on the standard CPC system. Therefore ANY memory writes which we do to ROM while WRITE_EN is active will also write to RAM.
+>
+> However, since the ROM maps to any and all memory banks this adds a certain amount of flexibility. Also note that reading from ROM is disabled whilst writing is enabled. This means we can read from the RAM 'underneath' the ROM while the ROM is active.
+>
+> My recommended programming procedure is to write to the ROM using video RAM addresses, however the ROM could be writting using addresses in bank 1 (&4000-&7fff) if that memory range does not contain meaningful data. (If the data to be written is already in this address range then the programmer can simply read the data (RAM) and then write (ROM) at the same address. Care needs to be taking with commands sent to the ROM though, as these will still trash data underneath).
+>
+> 1) Read the RAM byte at the address to be programmed.
+> 2) Turn on write enable for the ROM
+> 3) Write the needed data to ROM.
+> 4) Turn off write enable for the ROM
+> 5) Write the original data back to ROM.
 
 * The ROM (NORFLASH) can hold up to 31 ROMS plus the firmware ROM. When programming the chip, the Firmware needs to go into slot 31 (starting at address &7c000). BASIC (if installed) needs to go into slot 0 (address &00000). ROM slots are located every &4000 bytes, I.e &00000, &04000, &08000, &0C000, &10000 etc.
 * If burning ROMs with the XGPro software:
@@ -136,7 +127,7 @@ This board houses the AY-3-8910 sound generator and associated outputs, plus the
 * CP2 is the keyboard connector. This uses the same pinout as the original Amstrad CPC464 (PCB keyboard).
 * J102 is the joystick connector. The connector here is mounted a little too 'inboard' and could short a PCB in the next socket.
 
-### Links
+## Links
 
 HAL/PAL:
 * Code for original: https://www.cpcwiki.eu/index.php/PAL16L8
@@ -149,17 +140,17 @@ Gate Array:
 ROM Images:
 https://www.cpcwiki.eu/index.php/ROM_List
 
-### Licence, Copyright and Contact Details
+## Licence, Copyright and Contact Details
 
-Licence: CERN-OHL-P
-Copyright © Mike Sutton, 2023
-Website: https://bread80.com
-Social media (Mastodon): https://mstdn.social/@bread80
-
-
+* Licence: CERN-OHL-P
+* Copyright © Mike Sutton, 2023
+* Website: https://bread80.com
+* Social media (Mastodon): https://mstdn.social/@bread80
 
 
-### Notes
+
+
+## Notes
 
 There's nothing useful beyond here. But if you've made it this far you'll probably keep going anyway.
 
