@@ -84,15 +84,15 @@ This board houses the link between the video data bus and the CPU data bus, mass
 * To use > 64k RAM leave LK5, LK6, LK7 open and install IC118 and U194. IC118 is a standard Amstrad HAL/PAL.
 
 The correct circuit to drive /RAMOE is:
-
+```
 XCPU_AD-----|
             |--
 /XCPU_AD--     AND---/ROMOE
           OR---
 /RAMRD----
-
+```
 In text form:
-/ROMOE := XCPU_AD AND (/XCPU_AD OR /RAMRD)
+`/ROMOE := XCPU_AD AND (/XCPU_AD OR /RAMRD)`
 
 XCPU_AD can be sourced from U195 pin 8.
 
