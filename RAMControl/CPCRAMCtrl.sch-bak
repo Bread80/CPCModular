@@ -662,7 +662,7 @@ READY
 Text Label 9750 5650 1    50   ~ 0
 RAMDIS
 Text Label 9850 5650 1    50   ~ 0
-RAMRD
+~RAMRD
 Text Notes 3700 650  0    50   ~ 0
 To video board
 Text Notes 8250 650  0    50   ~ 0

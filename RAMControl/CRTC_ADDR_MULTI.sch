@@ -155,12 +155,12 @@ $EndComp
 $Comp
 L 74xx:74LS32 IC112
 U 2 1 60FA7135
-P 2900 2150
-F 0 "IC112" H 3050 2450 50  0000 C CNN
-F 1 "74LS32" H 3050 2350 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2900 2150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2900 2150 50  0001 C CNN
-	2    2900 2150
+P 3050 2250
+F 0 "IC112" H 3200 2550 50  0000 C CNN
+F 1 "74LS32" H 3200 2450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3050 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3050 2250 50  0001 C CNN
+	2    3050 2250
 	1    0    0    -1  
 $EndComp
 Text HLabel 600  3400 1    50   Input ~ 0
@@ -523,8 +523,6 @@ Wire Wire Line
 	8100 3100 8000 3100
 Wire Wire Line
 	3600 1300 3700 1300
-Wire Wire Line
-	3700 1100 3600 1100
 Text Notes 9150 1350 0    100  ~ 0
 BUS CONTROL
 $Comp
@@ -553,8 +551,6 @@ Wire Wire Line
 	1850 1300 1650 1300
 Text HLabel 950  1300 0    50   Input ~ 0
 ~RAS
-Wire Wire Line
-	950  900  1700 900 
 Wire Wire Line
 	1700 900  1700 1200
 Wire Wire Line
@@ -599,7 +595,6 @@ Wire Wire Line
 	2150 1700 2150 1600
 Wire Wire Line
 	2450 1200 2550 1200
-NoConn ~ 2450 1400
 Text Notes 1450 750  0    50   ~ 0
 Delay multiplexers until \nafter memory writes
 $Comp
@@ -631,39 +626,28 @@ Wire Wire Line
 	3600 1500 4300 1500
 Wire Wire Line
 	4300 1500 4300 1400
-Text HLabel 8300 1600 2    50   Output ~ 0
+Text HLabel 8000 1600 2    50   Output ~ 0
 ~RAMOE
 $Comp
 L 74xx:74LS08 U193
 U 1 1 6395DF31
-P 7900 1600
-F 0 "U193" H 7900 1925 50  0000 C CNN
-F 1 "74LS08" H 7900 1834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7900 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7900 1600 50  0001 C CNN
-	1    7900 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 IC192
-U 4 1 6395F251
-P 7100 1350
-F 0 "IC192" H 7100 1675 50  0000 C CNN
-F 1 "74LS32" H 7100 1584 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7100 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7100 1350 50  0001 C CNN
-	4    7100 1350
+P 7600 1600
+F 0 "U193" H 7600 1925 50  0000 C CNN
+F 1 "74LS08" H 7600 1834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7600 1600 50  0001 C CNN
+	1    7600 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 IC192
 U 1 1 63960994
-P 7100 1850
-F 0 "IC192" H 7100 2175 50  0000 C CNN
-F 1 "74LS32" H 7100 2084 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7100 1850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7100 1850 50  0001 C CNN
-	1    7100 1850
+P 6800 1850
+F 0 "IC192" H 6800 2175 50  0000 C CNN
+F 1 "74LS32" H 6800 2084 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6800 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6800 1850 50  0001 C CNN
+	1    6800 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -677,45 +661,24 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6450 6150 50  0001 C CNN
 	2    6450 6150
 	1    0    0    -1  
 $EndComp
-Text HLabel 6000 1250 0    50   Input ~ 0
-~244EN
-Text HLabel 6000 1600 0    50   Input ~ 0
-~CAS
-Text HLabel 6000 1950 0    50   Input ~ 0
+Text HLabel 6400 1950 0    50   Input ~ 0
 ~RAMRD
 Wire Wire Line
-	8300 1600 8200 1600
+	8000 1600 7900 1600
 Wire Wire Line
-	7600 1500 7500 1500
+	7300 1500 7200 1500
 Wire Wire Line
-	7500 1500 7500 1350
+	7200 1500 7200 1350
 Wire Wire Line
-	7500 1350 7400 1350
+	7100 1850 7200 1850
 Wire Wire Line
-	7400 1850 7500 1850
+	7200 1850 7200 1700
 Wire Wire Line
-	7500 1850 7500 1700
+	7200 1700 7300 1700
 Wire Wire Line
-	7500 1700 7600 1700
-Wire Wire Line
-	6800 1250 6700 1250
-Wire Wire Line
-	6100 1250 6000 1250
-Wire Wire Line
-	6000 1950 6800 1950
-Wire Wire Line
-	6700 1600 6700 1450
-Wire Wire Line
-	6700 1450 6800 1450
-Connection ~ 6700 1600
-Wire Wire Line
-	6700 1600 6000 1600
-Text Notes 6500 800  0    50   ~ 0
-Allow RAM output during video cycles via ~CAS~.\nDuring CPU cycles guard against clashes with ~MWE~.
-Wire Wire Line
-	6700 1600 6700 1750
-Wire Wire Line
-	6700 1750 6800 1750
+	6400 1950 6500 1950
+Text Notes 6100 1200 0    50   ~ 0
+Ensure ~RAMOE~ doesn't clash with ~RAMWE~.\nDuring CPU cycles, only allow RAM to output (~RAMOE~) when\n~RAMRD~ is active. During video cycles hold ~RAMOE~ active.\nRAM reads will be enabled or disabled by ~RAMCS~.\nThis could be improved but it works.
 $Comp
 L 74xx:74LS08 U193
 U 4 1 639EC200
@@ -978,8 +941,8 @@ Wire Bus Line
 	1500 2550 1500 2900
 Text Notes 4200 1900 0    100  ~ 0
 RAM CONTROL
-Text Notes 4300 3200 0    100  ~ 0
-EXP RAM CONTROL
+Text Notes 2850 2850 0    100  ~ 0
+EXPANSION RAM CONTROL
 Text HLabel 8800 1750 1    50   3State ~ 0
 DATA_BUS
 Text GLabel 8800 3550 0    50   3State ~ 0
@@ -1088,17 +1051,6 @@ F 1 "74LS04" H 1350 1526 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1350 1300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1350 1300 50  0001 C CNN
 	5    1350 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS04 U191
-U 6 1 638768EC
-P 6400 1250
-F 0 "U191" H 6400 1567 50  0000 C CNN
-F 1 "74LS04" H 6400 1476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6400 1250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6400 1250 50  0001 C CNN
-	6    6400 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1220,15 +1172,15 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63899CAD
-P 6150 7500
+P 6150 7650
 AR Path="/63899CAD" Ref="#PWR?"  Part="1" 
 AR Path="/6071ED56/63899CAD" Ref="#PWR?"  Part="1" 
 AR Path="/60F2930F/63899CAD" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 6150 7250 50  0001 C CNN
-F 1 "GND" H 6000 7450 50  0001 C CNN
-F 2 "" H 6150 7500 50  0001 C CNN
-F 3 "" H 6150 7500 50  0001 C CNN
-	1    6150 7500
+F 0 "#PWR0123" H 6150 7400 50  0001 C CNN
+F 1 "GND" H 6000 7600 50  0001 C CNN
+F 2 "" H 6150 7650 50  0001 C CNN
+F 3 "" H 6150 7650 50  0001 C CNN
+	1    6150 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1312,24 +1264,85 @@ NoConn ~ 6750 5800
 NoConn ~ 6750 6150
 NoConn ~ 6750 6900
 Wire Wire Line
-	6150 6150 6150 6800
+	6150 6150 6150 6450
 Wire Wire Line
-	6150 7000 6150 7500
-Text HLabel 2400 2150 0    50   Input ~ 0
+	6150 7000 6150 7300
+Text HLabel 2550 2250 0    50   Input ~ 0
 ~CPU_ADDR
 Wire Wire Line
-	3300 2150 3200 2150
+	2550 2250 2650 2250
 Wire Wire Line
-	2400 2150 2500 2150
+	2650 2250 2650 2150
 Wire Wire Line
-	2500 2150 2500 2050
+	2650 2150 2750 2150
 Wire Wire Line
-	2500 2050 2600 2050
+	2650 2250 2650 2350
 Wire Wire Line
-	2500 2150 2500 2250
+	2650 2350 2750 2350
+Connection ~ 2650 2250
 Wire Wire Line
-	2500 2250 2600 2250
-Connection ~ 2500 2150
+	2450 1400 2800 1400
+Text Label 2800 1400 2    50   ~ 0
+XCPU_AD
+Text Label 6850 1350 0    50   ~ 0
+XCPU_AD
+Text Label 6100 1750 0    50   ~ 0
+~XCPU_AD
+Wire Wire Line
+	6100 1750 6500 1750
+Wire Wire Line
+	6850 1350 7200 1350
+Text Notes 2550 1850 0    50   ~ 0
+Buffer ~CPU_ADDR~ for signal\nintegrity reasons
+Text Label 3900 2250 2    50   ~ 0
+~BUF_CPU_AD
+Text Label 1200 900  0    50   ~ 0
+~BUF_CPU_AD
+Text Label 3150 1100 0    50   ~ 0
+~BUF_CPU_AD
+Wire Wire Line
+	3150 1100 3700 1100
+Wire Wire Line
+	1700 900  1200 900 
+Wire Wire Line
+	3350 2250 3900 2250
+Text Label 1700 4300 0    50   ~ 0
+~BUF_CPU_AD
+Wire Wire Line
+	1700 4300 2250 4300
+$Comp
+L 74xx:74LS32 U192
+U 4 1 651FD105
+P 6450 7400
+F 0 "U192" H 6450 7725 50  0000 C CNN
+F 1 "74LS32" H 6450 7634 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6450 7400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6450 7400 50  0001 C CNN
+	4    6450 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 7650 6150 7500
+Connection ~ 6150 7300
+Connection ~ 6150 7500
+Wire Wire Line
+	6150 7500 6150 7300
+$Comp
+L 74xx:74LS04 U191
+U 6 1 6520CC2A
+P 6450 6450
+F 0 "U191" H 6450 6767 50  0000 C CNN
+F 1 "74LS04" H 6450 6676 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6450 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6450 6450 50  0001 C CNN
+	6    6450 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 6450
+Wire Wire Line
+	6150 6450 6150 6800
+NoConn ~ 6750 6450
+NoConn ~ 6750 7400
 Wire Bus Line
 	1100 2900 1500 2900
 Wire Bus Line
@@ -1340,12 +1353,4 @@ Wire Bus Line
 	10700 2100 10700 5050
 Wire Bus Line
 	8800 1750 8800 4600
-Text GLabel 3600 1100 0    50   Input ~ 0
-~CPU_ADDRx
-Text GLabel 950  900  0    50   Input ~ 0
-~CPU_ADDRx
-Text GLabel 3300 2150 2    50   Output ~ 0
-~CPU_ADDRx
-Text GLabel 2250 4300 0    50   Input ~ 0
-~CPU_ADDRx
 $EndSCHEMATC

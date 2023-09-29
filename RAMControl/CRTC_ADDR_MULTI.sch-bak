@@ -49,8 +49,6 @@ F 3 "" H 2850 3250 50  0001 C CNN
 	1    2850 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 2250 4300 0    50   Input ~ 0
-~CPU_ADDRx
 Text HLabel 2250 3950 0    50   Input ~ 0
 ~RESET
 Text Label 2100 3500 0    50   ~ 0
@@ -1347,5 +1345,7 @@ Text GLabel 3600 1100 0    50   Input ~ 0
 Text GLabel 950  900  0    50   Input ~ 0
 ~CPU_ADDRx
 Text GLabel 3300 2150 2    50   Output ~ 0
+~CPU_ADDRx
+Text GLabel 2250 4300 0    50   Input ~ 0
 ~CPU_ADDRx
 $EndSCHEMATC

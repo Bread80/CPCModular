@@ -6,6 +6,8 @@
 
 The current modules are designed to fit a slightly modified RC2014 Pro backplane. In the text below I shall explain the current status of the project, workarounds needed to get it running and basic build details. Due to the work in progress status of the project this document will be intentionaly terse.
 
+![Photo of the project. An RC2014 backplane in blue with modules in red.](Prototype-sml.jpg)
+
 ##The modules
 
 #General
