@@ -1,30 +1,30 @@
-### The CPC Modular
+# The CPC Modular
 
-##An Amstrad CPC compatible computer build from modules.
+### An Amstrad CPC compatible computer build from modules.
 
 ***This project is an unfinished work in progress. It currently has bugs and not all the features have been tested!
 
 The current modules are designed to fit a slightly modified RC2014 Pro backplane. In the text below I shall explain the current status of the project, workarounds needed to get it running and basic build details. Due to the work in progress status of the project this document will be intentionaly terse.
 
-![Photo of the project. An RC2014 backplane in blue with modules in red.](Prototype-sml.jpg)
+![Photo of the project. An RC2014 backplane in blue with modules in red.](Prototype_sml.jpg)
 
-##The modules
+## The modules
 
-#General
+### General
 
 The project uses pin header/socket to connect modules within subsystems (the video-RAM subsystem and the IO-sound sub-system). This requires longer pin header than usual.
 
-#Backplane
+### Backplane
 
 This is a slightly modified RC2014 Pro backplane. The CPC Modular uses the D8 through D15 lines both within the video-RAM subsystem and the IO-Sound subsystem for local data busses. Therefore:
 * You will need to sever the D8 through D15 lines between these sections. 
 
-#CPU
+### CPU
 
 This is a slightly modified RC2014 "Z80 CPU Module". Modification:
 * The resistors on the board will need to be replaced with a different value. 2.2k ohm should work nicely.
 
-#ROM
+### ROM
 
 This board contains 512Kb NORFLASH. It includes circuitry to enable the flash to be burned in situ (untested). Config:
 * A jumper needs to be installed bridging pin 2 of LK4 and pin 2 of LK5.
@@ -67,7 +67,7 @@ commands sent to the ROM though, as these will still trash data underneath).
   11) Click PROG (toolbar)
   12) Click Program.
 
-# Video
+### Video
 
 This board houses the gate array and video output.
 * On JP901 the DISPEN and HSYNC signals are swapped compared to those on the equivalent header on the RAM-Control board. This is best fixed on the RAM-Control board (see below).
@@ -76,7 +76,7 @@ This board houses the gate array and video output.
 * The board includes footprints for both 40007 and 40010 gate arrays (and a 40008 should also work). The footprints overlap to save space. You should be able to include sockets for both by separating the two rows of pins and removing the webbing between them, however, the footprints are a little too close together to do this easily.
 * The holes in the footprint for the DIN socket are a little too small.
 
-#RAM-Control
+### RAM-Control
 
 This board houses the link between the video data bus and the CPU data bus, massages the signals to make them suitable for the SRAM memory and houses the optional components required for memories greater than 64k (untested).
 * The circuit driving /RAMOE is incorrect. To fix it:
@@ -105,12 +105,12 @@ In text form:
 
 XCPU_AD can be sourced from U195 pin 8.
 
-#RAM
+### RAM
 
 This board houses the 6845 CRTC, address multiplexers and 512Kb SRAM. There are no issues here, and no config is necessary.
 * Headers can be installed for CURSOR and LPEN if required. They probably aren't.
 
-#IO
+### IO
 
 This board houses the 8255 PIO and tape interface. Solder links and jumpers are installed to make the I/O address configurable:
 * The board was designed such that the IO board could be mounted 'above/in front of' it but the relay is too tall to allow that. Thus: I'd recommend you mount J902 on the rear of the board (this is the connector to the Sound board).
@@ -126,7 +126,7 @@ This board houses the 8255 PIO and tape interface. Solder links and jumpers are 
   4) PBSY is Printer Busy signal. The CPC Modular does not include a parallel port. This signal can be used for expansion if desired.
 * J1, J2 and J3 are the tape I/O jacks. J3 (Motor) should be a 2.5mm jack socket but the footprint is for a 3.5mm socket.
 
-#Sound
+### Sound
 
 This board houses the AY-3-8910 sound generator and associated outputs, plus the keyboard and joystick connectors.
 * As noted for the IO board: You should mount the inter-board connector (J902) on the top of this board, not the rear as shown in the silkscreen.
@@ -136,7 +136,7 @@ This board houses the AY-3-8910 sound generator and associated outputs, plus the
 * CP2 is the keyboard connector. This uses the same pinout as the original Amstrad CPC464 (PCB keyboard).
 * J102 is the joystick connector. The connector here is mounted a little too 'inboard' and could short a PCB in the next socket.
 
-#Links
+### Links
 
 HAL/PAL:
 * Code for original: https://www.cpcwiki.eu/index.php/PAL16L8
@@ -149,7 +149,7 @@ Gate Array:
 ROM Images:
 https://www.cpcwiki.eu/index.php/ROM_List
 
-#Licence, Copyright and Contact Details
+### Licence, Copyright and Contact Details
 
 Licence: CERN-OHL-P
 Copyright © Mike Sutton, 2023
@@ -159,7 +159,7 @@ Social media (Mastodon): https://mstdn.social/@bread80
 
 
 
-#Notes
+### Notes
 
 There's nothing useful beyond here. But if you've made it this far you'll probably keep going anyway.
 
