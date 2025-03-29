@@ -38,70 +38,68 @@ $EndComp
 $Comp
 L 74xx:74LS32 IC191
 U 2 1 60F65749
-P 2200 2600
-F 0 "IC191" H 2200 2925 50  0000 C CNN
-F 1 "74LS32" H 2200 2834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2200 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2200 2600 50  0001 C CNN
-	2    2200 2600
-	1    0    0    -1  
+P 5600 7250
+F 0 "IC191" H 5600 7575 50  0000 C CNN
+F 1 "74LS32" H 5600 7484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5600 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5600 7250 50  0001 C CNN
+	2    5600 7250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L 74xx:74LS08 IC194
 U 3 1 60F668D4
-P 5150 3150
-F 0 "IC194" V 5104 3338 50  0000 L CNN
-F 1 "74LS08" V 5195 3338 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5150 3150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5150 3150 50  0001 C CNN
-	3    5150 3150
+P 5350 3150
+F 0 "IC194" V 5304 3338 50  0000 L CNN
+F 1 "74LS08" V 5395 3338 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5350 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5350 3150 50  0001 C CNN
+	3    5350 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L 74xx:74LS74 IC195
 U 1 1 60F67D94
-P 5850 3900
-F 0 "IC195" H 6000 4300 50  0000 C CNN
-F 1 "74LS74" H 6000 4200 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5850 3900 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 5850 3900 50  0001 C CNN
-	1    5850 3900
+P 4650 4400
+F 0 "IC195" H 4800 4800 50  0000 C CNN
+F 1 "74LS74" H 4800 4700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4650 4400 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4650 4400 50  0001 C CNN
+	1    4650 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R112
 U 1 1 60F685E5
-P 7250 5500
-F 0 "R112" V 7350 5400 50  0000 L CNN
-F 1 "2k2" V 7250 5450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 5500 50  0001 C CNN
-F 3 "~" H 7250 5500 50  0001 C CNN
-	1    7250 5500
+P 7350 5000
+F 0 "R112" V 7450 4900 50  0000 L CNN
+F 1 "2k2" V 7350 4950 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7280 5000 50  0001 C CNN
+F 3 "~" H 7350 5000 50  0001 C CNN
+	1    7350 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 60F68A3F
-P 7250 5650
-F 0 "#PWR012" H 7250 5400 50  0001 C CNN
-F 1 "GND" H 7255 5477 50  0000 C CNN
-F 2 "" H 7250 5650 50  0001 C CNN
-F 3 "" H 7250 5650 50  0001 C CNN
-	1    7250 5650
+P 7350 5150
+F 0 "#PWR012" H 7350 4900 50  0001 C CNN
+F 1 "GND" H 7355 4977 50  0000 C CNN
+F 2 "" H 7350 5150 50  0001 C CNN
+F 3 "" H 7350 5150 50  0001 C CNN
+	1    7350 5150
 	1    0    0    -1  
 $EndComp
-Text HLabel 6250 5400 0    50   Input ~ 0
+Text HLabel 7250 4800 0    50   Input ~ 0
 ROMDIS
 Wire Wire Line
-	7250 5350 7250 5300
-Wire Wire Line
-	7250 5300 6500 5300
+	7350 4850 7350 4800
 $Comp
 L 74xx:74LS32 IC191
 U 3 1 60F6CB1D
 P 3100 2350
-F 0 "IC191" H 3100 2675 50  0000 C CNN
-F 1 "74LS32" H 3100 2584 50  0000 C CNN
+F 0 "IC191" H 3050 2650 50  0000 C CNN
+F 1 "74LS32" H 3050 2550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3100 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3100 2350 50  0001 C CNN
 	3    3100 2350
@@ -124,57 +122,45 @@ A15 high = access upper ROM, \nLatch outputs ROM index.\nIf A15 low, pulls up en
 $Comp
 L 74xx:74LS08 IC194
 U 4 1 60F729E7
-P 5250 2450
-F 0 "IC194" V 5204 2638 50  0000 L CNN
-F 1 "74LS08" V 5295 2638 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5250 2450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5250 2450 50  0001 C CNN
-	4    5250 2450
-	0    1    1    0   
+P 5450 2450
+F 0 "IC194" V 5400 2000 50  0000 L CNN
+F 1 "74LS08" V 5500 2000 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5450 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5450 2450 50  0001 C CNN
+	4    5450 2450
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4800 2150 5050 2150
+	5350 2050 5350 2150
 Wire Wire Line
-	5050 2150 5050 2850
+	5550 1950 5550 2150
 Wire Wire Line
-	4800 2050 5150 2050
-Wire Wire Line
-	5150 2050 5150 2150
-Wire Wire Line
-	4800 1950 5350 1950
-Wire Wire Line
-	5350 1950 5350 2150
-Wire Wire Line
-	5250 2750 5250 2850
-Wire Wire Line
-	5150 3800 5550 3800
-Text Notes 5650 3250 0    50   ~ 0
+	5450 2750 5450 2850
+Text Notes 5650 3350 0    50   ~ 0
 'Write enable' latch
 $Comp
 L 74xx:74LS32 IC191
 U 4 1 60F7B8B2
-P 4450 3900
-F 0 "IC191" H 4450 4225 50  0000 C CNN
-F 1 "74LS32" H 4450 4134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4450 3900 50  0001 C CNN
-	4    4450 3900
+P 3900 3900
+F 0 "IC191" H 3900 4225 50  0000 C CNN
+F 1 "74LS32" H 3900 4134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3900 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3900 3900 50  0001 C CNN
+	4    3900 3900
 	1    0    0    -1  
 $EndComp
-Text Notes 3800 4250 0    50   ~ 0
+Text Notes 2850 4500 0    50   ~ 0
 (Possible port address &cfff. \nProbably use jumpers!)
 Wire Wire Line
 	2500 2600 2600 2600
 Wire Wire Line
 	2600 2600 2600 2450
 Wire Wire Line
-	4750 3900 5550 3900
-Text HLabel 5800 4300 0    50   Input ~ 0
+	4200 3900 4250 3900
+Text HLabel 4550 4800 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
-	5800 4300 5850 4300
-Wire Wire Line
-	5850 4300 5850 4200
+	4550 4800 4650 4800
 $Comp
 L power:+5V #PWR011
 U 1 1 60F82B88
@@ -186,121 +172,98 @@ F 3 "" H 5850 3600 50  0001 C CNN
 	1    5850 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 4850 4700 0    50   ~ 0
+Text Notes 4500 5750 0    50   ~ 0
 If upper three bits of ROM register are high then \nwriting to this port will enable writing\nto the NORFLASH. (Writing to this port when upper \nthree bits are not all high will cnacel write enable.)
 Text Label 6150 4000 0    50   ~ 0
 ~WRITE_EN
 $Comp
 L 74xx:74LS32 IC192
 U 1 1 60F99894
-P 7750 3700
-F 0 "IC192" H 7750 4025 50  0000 C CNN
-F 1 "74LS32" H 7750 3934 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7750 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7750 3700 50  0001 C CNN
-	1    7750 3700
-	1    0    0    -1  
+P 2200 2600
+F 0 "IC192" H 2200 2925 50  0000 C CNN
+F 1 "74LS32" H 2200 2834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2200 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2200 2600 50  0001 C CNN
+	1    2200 2600
+	1    0    0    1   
 $EndComp
-Text HLabel 6550 4250 0    50   Input ~ 0
+Text HLabel 6550 4200 0    50   Input ~ 0
 ~WR
 $Comp
 L 74xx:74LS32 IC192
-U 4 1 60F9BBC0
-P 6950 4150
-F 0 "IC192" H 6950 4475 50  0000 C CNN
-F 1 "74LS32" H 6950 4384 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6950 4150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6950 4150 50  0001 C CNN
-	4    6950 4150
+U 3 1 60F9BBC0
+P 6950 4100
+F 0 "IC192" H 6950 4425 50  0000 C CNN
+F 1 "74LS32" H 6950 4334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6950 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6950 4100 50  0001 C CNN
+	3    6950 4100
 	1    0    0    -1  
 $EndComp
-Text HLabel 7350 4450 0    50   Input ~ 0
+Text HLabel 7350 3800 0    50   Input ~ 0
 ~MREQ
 Wire Wire Line
-	7450 3600 7400 3600
-Text Label 6150 3800 0    50   ~ 0
-WRITE_EN
-Text Notes 7000 4700 0    50   ~ 0
-Memory writes when ~WRITE_EN~ is active \nwill write to ROM (and RAM!!)
+	8300 5100 8200 5100
+Text Notes 6550 3550 0    50   ~ 0
+Memory writes when ~WRITE_EN~ is active \nwill write to ROM.
 $Comp
 L 74xx:74LS32 IC192
-U 3 1 60FA1827
-P 7750 4350
-F 0 "IC192" H 7750 4675 50  0000 C CNN
-F 1 "74LS32" H 7750 4584 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7750 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7750 4350 50  0001 C CNN
-	3    7750 4350
-	1    0    0    -1  
+U 4 1 60FA1827
+P 7750 3900
+F 0 "IC192" H 7750 4225 50  0000 C CNN
+F 1 "74LS32" H 7750 4134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7750 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7750 3900 50  0001 C CNN
+	4    7750 3900
+	1    0    0    1   
 $EndComp
-Text HLabel 7400 3600 0    50   Input ~ 0
+Text HLabel 9450 3800 0    50   Input ~ 0
 ~RD
-Wire Wire Line
-	9550 3800 8950 3800
-Text Notes 6700 3300 0    50   ~ 0
-WRITE_EN will inhibit reads while enabled.\n(Not strictly necessary).
 $Comp
 L 74xx:74LS32 IC192
 U 2 1 60FA57B2
-P 7650 5200
-F 0 "IC192" H 7650 5525 50  0000 C CNN
-F 1 "74LS32" H 7650 5434 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7650 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7650 5200 50  0001 C CNN
-	2    7650 5200
-	1    0    0    1   
+P 7750 4700
+F 0 "IC192" H 7750 5025 50  0000 C CNN
+F 1 "74LS32" H 7750 4934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7750 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7750 4700 50  0001 C CNN
+	2    7750 4700
+	1    0    0    -1  
 $EndComp
-Text HLabel 7150 5100 0    50   Input ~ 0
+Text HLabel 7250 4600 0    50   Input ~ 0
 ~ROMEN
 Wire Wire Line
-	7350 5100 7150 5100
+	7450 4600 7250 4600
 Wire Wire Line
-	7350 5300 7250 5300
-Connection ~ 7250 5300
-Text Notes 7500 5600 0    50   ~ 0
+	7450 4800 7350 4800
+Connection ~ 7350 4800
+Text Notes 7000 5650 0    50   ~ 0
 (Normal behaviour)\nIf ROMDIS is high it \ninhibits reading from ROM.
 $Comp
 L 74xx:74LS08 IC194
 U 1 1 60FAA2DE
-P 8600 5100
-F 0 "IC194" H 8600 5425 50  0000 C CNN
-F 1 "74LS08" H 8600 5334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8600 5100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 8600 5100 50  0001 C CNN
-	1    8600 5100
+P 8600 4600
+F 0 "IC194" H 8600 4925 50  0000 C CNN
+F 1 "74LS08" H 8600 4834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8600 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 8600 4600 50  0001 C CNN
+	1    8600 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 5000 8200 5000
+	8300 4500 8200 4500
 Wire Wire Line
-	8200 5000 8200 4350
+	8900 4600 9100 4600
 Wire Wire Line
-	8300 5200 8150 5200
-Wire Wire Line
-	8900 5100 9100 5100
-Wire Wire Line
-	9100 5100 9100 3700
-Text Notes 8650 5800 0    50   ~ 0
+	9100 4600 9100 3700
+Text Notes 9250 4500 0    50   ~ 0
 But we also want to drive ~CS~ \nlow if WRITE_EN active and we're \nwriting to memory.
-Text Notes 900  6500 0    50   ~ 0
-!!!\nThere is no way to disable memory writes on the standard CPC system. Therefore ANY \nmemory writes which we do to ROM while WRITE_EN is active will also write to RAM.\n\nHowever, since the ROM maps to any and all memory banks this adds a certain \namount of flexibility. Also note that reading from ROM is disabled whilst writing is \nenabled. This means we can read from the RAM 'underneath' the ROM while the ROM \nis active.\n\nMy recommended programming procedure is to write to the ROM using video RAM \naddresses, however the ROM could be writting using addresses in bank 1 (&4000-\n&7fff) if that memory range does not contain meaningful data. (If the data to be \nwritten is already in this address range then the programmer can simply read the data \n(RAM) and then write (ROM) at the same address. Care needs to be taking with \ncommands sent to the ROM though, as these will still trash data underneath).\n\n1) Read the RAM byte at the address to be programmed.\n2) Turn on write enable for the ROM\n3) Write the needed data to ROM.\n4) Turn off write enable for the ROM\n5) Write the original data back to ROM.
+Text Notes 450  9900 0    50   ~ 0
+THIS NO LONGER APPLIES\n\n!!!\nThere is no way to disable memory writes on the standard CPC system. Therefore ANY \nmemory writes which we do to ROM while WRITE_EN is active will also write to RAM.\n\nHowever, since the ROM maps to any and all memory banks this adds a certain \namount of flexibility. Also note that reading from ROM is disabled whilst writing is \nenabled. This means we can read from the RAM 'underneath' the ROM while the ROM \nis active.\n\nMy recommended programming procedure is to write to the ROM using video RAM \naddresses, however the ROM could be writting using addresses in bank 1 (&4000-\n&7fff) if that memory range does not contain meaningful data. (If the data to be \nwritten is already in this address range then the programmer can simply read the data \n(RAM) and then write (ROM) at the same address. Care needs to be taking with \ncommands sent to the ROM though, as these will still trash data underneath).\n\n1) Read the RAM byte at the address to be programmed.\n2) Turn on write enable for the ROM\n3) Write the needed data to ROM.\n4) Turn off write enable for the ROM\n5) Write the original data back to ROM.
 Wire Wire Line
-	8950 3700 8950 3800
+	7250 4100 7350 4100
 Wire Wire Line
-	8050 3700 8950 3700
-Wire Wire Line
-	8050 4350 8200 4350
-Wire Wire Line
-	8200 4350 8200 3500
-Connection ~ 8200 4350
-Wire Wire Line
-	7250 4150 7350 4150
-Wire Wire Line
-	7350 4150 7350 4250
-Wire Wire Line
-	7350 4250 7450 4250
-Wire Wire Line
-	7450 4450 7350 4450
+	7450 3800 7350 3800
 Wire Wire Line
 	9100 3700 9550 3700
 $Comp
@@ -633,8 +596,6 @@ Wire Wire Line
 	10750 2200 10850 2200
 Wire Bus Line
 	10950 600  3600 600 
-Wire Bus Line
-	3600 600  1150 600 
 Connection ~ 3600 600 
 Wire Bus Line
 	9200 2300 5750 2300
@@ -652,12 +613,12 @@ Connection ~ 5000 1550
 Connection ~ 4900 1450
 Wire Wire Line
 	4900 1450 5650 1450
-Text HLabel 1150 750  0    50   3State ~ 0
+Text HLabel 1050 750  0    50   3State ~ 0
 ADDR_BUS
-Text HLabel 1150 600  0    50   3State ~ 0
+Text HLabel 1050 600  0    50   3State ~ 0
 DATA_BUS
-Text Notes 1850 1900 0    50   ~ 0
-Latch on port &efff
+Text Notes 600  7550 0    50   ~ 0
+HOW TO FLASH THE EEPROM\n\nout (&cfff),ROM_number OR $e0 ;Arm\n<repeat above instruction> ;Write enable\n<Program FLASH as per datasheet>\nout (&cfff),ROM_number ;Disable and disarm\n\nWhen write enabled:\n* A15 and A14 are ignored.\n* The flash maps to *all* memory banks.\n* Writes to RAM are disbled (if LK1 installed).\n* Firmware is in bank 31.\n\nROM burning code *must* run from RAM.\nInterrupts *must* be disabled whils burning.
 Text GLabel 9300 1300 0    50   3State ~ 0
 A[0..15]
 Text GLabel 3600 950  0    50   3State ~ 0
@@ -679,10 +640,10 @@ A15
 Text Label 1450 4000 0    50   ~ 0
 A12
 Wire Bus Line
-	1150 750  1350 750 
+	1050 750  1350 750 
 Connection ~ 1350 750 
 Wire Wire Line
-	1450 4000 4150 4000
+	1450 4000 3600 4000
 Wire Wire Line
 	1450 2250 2800 2250
 Wire Wire Line
@@ -730,7 +691,7 @@ L power:GND #PWR08
 U 1 1 610FC8F1
 P 4300 2750
 F 0 "#PWR08" H 4300 2500 50  0001 C CNN
-F 1 "GND" H 4305 2577 50  0000 C CNN
+F 1 "GND" H 4305 2577 50  0001 C CNN
 F 2 "" H 4300 2750 50  0001 C CNN
 F 3 "" H 4300 2750 50  0001 C CNN
 	1    4300 2750
@@ -739,92 +700,12 @@ $EndComp
 $Comp
 L Device:Jumper_NO_Small LK1
 U 1 1 60FA64EE
-P 8600 5450
-F 0 "LK1" H 8600 5635 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 8600 5544 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8600 5450 50  0001 C CNN
-F 3 "~" H 8600 5450 50  0001 C CNN
-	1    8600 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 5450 9100 5450
-Wire Wire Line
-	9100 5450 9100 5100
-Connection ~ 9100 5100
-Wire Wire Line
-	8500 5450 8150 5450
-Wire Wire Line
-	8150 5450 8150 5200
-Connection ~ 8150 5200
-Wire Wire Line
-	8150 5200 7950 5200
-$Comp
-L Device:Jumper_NO_Small LK2
-U 1 1 60FB0475
-P 6400 4150
-F 0 "LK2" H 6350 4200 50  0000 L CNN
-F 1 "Jumper_NO_Small" V 6445 4198 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 4150 50  0001 C CNN
-F 3 "~" H 6400 4150 50  0001 C CNN
-	1    6400 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR016
-U 1 1 60FB0A7B
-P 6250 4150
-F 0 "#PWR016" H 6250 4000 50  0001 C CNN
-F 1 "+5V" H 6150 4200 50  0000 C CNN
-F 2 "" H 6250 4150 50  0001 C CNN
-F 3 "" H 6250 4150 50  0001 C CNN
-	1    6250 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small LK3
-U 1 1 60FB60E9
-P 7150 3850
-F 0 "LK3" H 7150 3665 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 7150 3756 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7150 3850 50  0001 C CNN
-F 3 "~" H 7150 3850 50  0001 C CNN
-	1    7150 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 60FB67E8
-P 7350 3850
-F 0 "#PWR015" H 7350 3600 50  0001 C CNN
-F 1 "GND" H 7355 3677 50  0000 C CNN
-F 2 "" H 7350 3850 50  0001 C CNN
-F 3 "" H 7350 3850 50  0001 C CNN
-	1    7350 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 3800 6550 3800
-Wire Wire Line
-	7350 3850 7250 3850
-Wire Wire Line
-	7050 3850 7000 3850
-Wire Wire Line
-	7000 3850 7000 3800
-Connection ~ 7000 3800
-Wire Wire Line
-	7000 3800 7450 3800
-Text Notes 4900 6400 0    50   ~ 0
-To disable write feature (or save cost), leave out IC194 and IC195 \nand install jumpers on links LK1, LK2 and LK3.
-$Comp
-L 74xx:74LS02 IC193
-U 1 1 60F7223F
-P 3100 3000
-F 0 "IC193" H 3100 3325 50  0000 C CNN
-F 1 "74LS02" H 3100 3234 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3100 3000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3100 3000 50  0001 C CNN
-	1    3100 3000
+P 9500 5200
+F 0 "LK1" H 9500 5385 50  0000 C CNN
+F 1 "RAMDIS" H 9500 5294 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9500 5200 50  0001 C CNN
+F 3 "~" H 9500 5200 50  0001 C CNN
+	1    9500 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -834,102 +715,538 @@ Wire Wire Line
 Wire Wire Line
 	3400 3000 3700 3000
 Text Notes 2900 3300 0    50   ~ 0
-We also want to enable the outputs \nwhen write enabling is active.
+We also want to enable the outputs \nwhen 'armed'.
 Wire Wire Line
-	5500 3500 5500 3400
+	5350 3450 5350 3800
 Wire Wire Line
-	5500 3400 6550 3400
-Wire Wire Line
-	6550 3400 6550 3800
-Connection ~ 6550 3800
-Wire Wire Line
-	6550 3800 7000 3800
-Wire Wire Line
-	5150 3450 5150 3800
-Wire Wire Line
-	2700 3500 5500 3500
+	2700 3500 5050 3500
 Wire Wire Line
 	3700 2450 3700 3000
 Wire Wire Line
 	1450 2900 2800 2900
-$Comp
-L Device:Jumper_NO_Small LK5
-U 1 1 61D397D8
-P 6500 5400
-F 0 "LK5" H 6500 5350 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 6500 5306 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 5400 50  0001 C CNN
-F 3 "~" H 6500 5400 50  0001 C CNN
-	1    6500 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Jumper_NO_Small LK4
-U 1 1 61D39DFA
-P 6400 5300
-F 0 "LK4" H 6400 5250 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 6400 5206 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 5300 50  0001 C CNN
-F 3 "~" H 6400 5300 50  0001 C CNN
-	1    6400 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 5400 6250 5400
-$Comp
-L power:GND #PWR06
-U 1 1 61D46C0C
-P 6500 5500
-F 0 "#PWR06" H 6500 5250 50  0001 C CNN
-F 1 "GND" H 6505 5327 50  0000 C CNN
-F 2 "" H 6500 5500 50  0001 C CNN
-F 3 "" H 6500 5500 50  0001 C CNN
-	1    6500 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR05
-U 1 1 61D46EC8
-P 6400 5200
-F 0 "#PWR05" H 6400 5050 50  0001 C CNN
-F 1 "+5V" H 6415 5373 50  0000 C CNN
-F 2 "" H 6400 5200 50  0001 C CNN
-F 3 "" H 6400 5200 50  0001 C CNN
-	1    6400 5200
-	1    0    0    -1  
-$EndComp
-Text Notes 5300 6000 0    50   ~ 0
-For CPC: install links LK4 and LK5 (permanently \ndisables/overrides onboard ROM).\nFor CPC modular: Install link from LK4 to LK5.
 Wire Wire Line
 	3500 2350 3500 3800
 Connection ~ 3500 2350
 Wire Wire Line
 	3500 2350 3800 2350
 Wire Wire Line
-	3500 3800 4150 3800
+	3500 3800 3600 3800
 Wire Wire Line
 	8200 3500 9550 3500
 Wire Wire Line
-	6250 4150 6300 4150
+	6650 4200 6550 4200
 Wire Wire Line
-	6550 4000 6550 4050
-Connection ~ 6550 4050
+	7250 4800 7350 4800
+$Comp
+L 74xx:74LS02 IC193
+U 3 1 60F7223F
+P 3100 3000
+F 0 "IC193" H 3100 3325 50  0000 C CNN
+F 1 "74LS02" H 3100 3234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3100 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3100 3000 50  0001 C CNN
+	3    3100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 IC195
+U 2 1 667F3E2B
+P 5850 3900
+F 0 "IC195" H 6000 4300 50  0000 C CNN
+F 1 "74LS74" H 6000 4200 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5850 3900 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 5850 3900 50  0001 C CNN
+	2    5850 3900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6550 4050 6650 4050
+	4650 4700 4650 4800
 Wire Wire Line
-	6550 4050 6550 4150
+	4950 4300 5050 4300
 Wire Wire Line
-	6550 4150 6500 4150
+	4350 4400 4250 4400
 Wire Wire Line
-	6150 4000 6550 4000
+	4250 4400 4250 3900
+Connection ~ 4250 3900
 Wire Wire Line
-	6650 4250 6550 4250
+	4250 3900 5550 3900
+Wire Wire Line
+	5050 4300 5050 3500
+Connection ~ 5050 4300
+$Comp
+L power:+5V #PWR0102
+U 1 1 6681E877
+P 4650 4100
+F 0 "#PWR0102" H 4650 3950 50  0001 C CNN
+F 1 "+5V" H 4550 4200 50  0000 C CNN
+F 2 "" H 4650 4100 50  0001 C CNN
+F 3 "" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1150 600  1250 700 
+Wire Wire Line
+	1250 700  1250 4300
+Wire Wire Line
+	1250 4300 4350 4300
+Text Label 4050 4300 0    50   ~ 0
+D7
+Text Label 5050 4250 1    50   ~ 0
+ARMED
+Text Notes 4500 5350 0    50   ~ 0
+When ARMED IC190 will be permanently enabled\n(and outputting selected address)
+Wire Wire Line
+	8200 5300 8300 5300
+$Comp
+L Diode:1N4148 D193
+U 1 1 66874409
+P 9150 5200
+F 0 "D193" H 9150 4983 50  0000 C CNN
+F 1 "1N4148" H 9150 5074 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9150 5025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9150 5200 50  0001 C CNN
+	1    9150 5200
+	-1   0    0    1   
+$EndComp
+Text HLabel 9700 5200 2    50   Output ~ 0
+RAMDIS
+$Comp
+L 74xx:74LS02 IC193
+U 2 1 66876EE0
+P 8600 5200
+F 0 "IC193" H 8600 5525 50  0000 C CNN
+F 1 "74LS02" H 8600 5434 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8600 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8600 5200 50  0001 C CNN
+	2    8600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5200 9000 5200
+Wire Wire Line
+	9300 5200 9400 5200
+$Comp
+L Device:LED D190
+U 1 1 668A7F30
+P 4800 6300
+F 0 "D190" V 4839 6182 50  0000 R CNN
+F 1 "ARMED" V 4748 6182 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4800 6300 50  0001 C CNN
+F 3 "~" H 4800 6300 50  0001 C CNN
+	1    4800 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 668A865A
+P 4800 6050
+F 0 "#PWR0103" H 4800 5900 50  0001 C CNN
+F 1 "+5V" H 4815 6223 50  0000 C CNN
+F 2 "" H 4800 6050 50  0001 C CNN
+F 3 "" H 4800 6050 50  0001 C CNN
+	1    4800 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 6950 3    50   Input ~ 0
+~ARMED
+$Comp
+L Device:R R198
+U 1 1 668A942E
+P 4800 6700
+F 0 "R198" V 4900 6600 50  0000 L CNN
+F 1 "470" V 4800 6650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4730 6700 50  0001 C CNN
+F 3 "~" H 4800 6700 50  0001 C CNN
+	1    4800 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 6050 1    50   Input ~ 0
+WRITE_EN
+$Comp
+L Device:LED D191
+U 1 1 668A9D40
+P 5150 6300
+F 0 "D191" V 5189 6182 50  0000 R CNN
+F 1 "ENABLED" V 5098 6182 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5150 6300 50  0001 C CNN
+F 3 "~" H 5150 6300 50  0001 C CNN
+	1    5150 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R199
+U 1 1 668AA137
+P 5150 6700
+F 0 "R199" V 5250 6600 50  0000 L CNN
+F 1 "470" V 5150 6650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5080 6700 50  0001 C CNN
+F 3 "~" H 5150 6700 50  0001 C CNN
+	1    5150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 668AA4F4
+P 5150 6950
+F 0 "#PWR0104" H 5150 6700 50  0001 C CNN
+F 1 "GND" H 5155 6777 50  0001 C CNN
+F 2 "" H 5150 6950 50  0001 C CNN
+F 3 "" H 5150 6950 50  0001 C CNN
+	1    5150 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 7650 0    50   Input ~ 0
+~WRITE
+$Comp
+L Device:R R200
+U 1 1 668B7CE0
+P 5600 6700
+F 0 "R200" V 5700 6600 50  0000 L CNN
+F 1 "470" V 5600 6650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5530 6700 50  0001 C CNN
+F 3 "~" H 5600 6700 50  0001 C CNN
+	1    5600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D192
+U 1 1 668B8101
+P 5600 6300
+F 0 "D192" V 5639 6182 50  0000 R CNN
+F 1 "WRITE" V 5548 6182 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5600 6300 50  0001 C CNN
+F 3 "~" H 5600 6300 50  0001 C CNN
+	1    5600 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 668B851F
+P 5600 6050
+F 0 "#PWR0105" H 5600 5900 50  0001 C CNN
+F 1 "+5V" H 5615 6223 50  0000 C CNN
+F 2 "" H 5600 6050 50  0001 C CNN
+F 3 "" H 5600 6050 50  0001 C CNN
+	1    5600 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6050 4800 6150
+Wire Wire Line
+	4800 6450 4800 6550
+Wire Wire Line
+	4800 6850 4800 6950
+Wire Wire Line
+	5150 6050 5150 6150
+Wire Wire Line
+	5150 6450 5150 6550
+Wire Wire Line
+	5150 6850 5150 6950
+Wire Wire Line
+	5600 6050 5600 6150
+Wire Wire Line
+	5600 6850 5600 6950
+Wire Wire Line
+	5600 6450 5600 6550
+Wire Wire Line
+	5700 7550 5700 7650
+Wire Wire Line
+	5700 7650 5500 7650
+Wire Wire Line
+	5500 7550 5500 7650
+Connection ~ 5500 7650
+Wire Wire Line
+	5500 7650 5400 7650
+Wire Wire Line
+	9700 5200 9600 5200
+Text GLabel 5050 4900 3    50   Output ~ 0
+~ARMED
+Wire Wire Line
+	4950 4500 5050 4500
+Text GLabel 6250 3800 2    50   Output ~ 0
+WRITE_EN
+Wire Wire Line
+	6250 3800 6150 3800
+Text GLabel 8300 4000 2    50   Output ~ 0
+~WRITE
+Wire Wire Line
+	8300 4000 8200 4000
+Wire Wire Line
+	9550 3800 9450 3800
+Wire Wire Line
+	6150 4000 6650 4000
+Wire Wire Line
+	7350 4100 7350 4000
+Wire Wire Line
+	7350 4000 7450 4000
+Wire Wire Line
+	8050 3900 8200 3900
+Connection ~ 8200 3900
+Wire Wire Line
+	8200 3900 8200 3500
+Connection ~ 8200 4000
+Wire Wire Line
+	8200 4000 8200 3900
+Wire Wire Line
+	8200 4000 8200 4500
+Wire Wire Line
+	8050 4700 8300 4700
+Wire Wire Line
+	8200 4500 8200 5100
+Connection ~ 8200 4500
+Connection ~ 8200 5100
+Wire Wire Line
+	8200 5100 8200 5300
+$Comp
+L Device:R R195
+U 1 1 6697D023
+P 4900 2400
+F 0 "R195" V 4900 2600 50  0000 L CNN
+F 1 "2k2" V 4900 2350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4830 2400 50  0001 C CNN
+F 3 "~" H 4900 2400 50  0001 C CNN
+	1    4900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R196
+U 1 1 6697D692
+P 5000 2400
+F 0 "R196" V 5000 2600 50  0000 L CNN
+F 1 "2k2" V 5000 2350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4930 2400 50  0001 C CNN
+F 3 "~" H 5000 2400 50  0001 C CNN
+	1    5000 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 3800 5550 3800
+Wire Wire Line
+	4800 1950 5100 1950
+Wire Wire Line
+	4800 2050 5000 2050
+Wire Wire Line
+	4800 2150 4900 2150
+$Comp
+L Device:R R197
+U 1 1 66999D6B
+P 5100 2400
+F 0 "R197" V 5100 2600 50  0000 L CNN
+F 1 "2k2" V 5100 2350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5030 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2150 5250 2850
+$Comp
+L power:GND #PWR0106
+U 1 1 669C03FD
+P 4750 2600
+F 0 "#PWR0106" H 4750 2350 50  0001 C CNN
+F 1 "GND" H 4755 2427 50  0001 C CNN
+F 2 "" H 4750 2600 50  0001 C CNN
+F 3 "" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2600 4900 2600
+Wire Wire Line
+	5100 2600 5100 2550
+Wire Wire Line
+	5100 2250 5100 1950
+Connection ~ 5100 1950
+Wire Wire Line
+	5100 1950 5550 1950
+Wire Wire Line
+	5000 2050 5000 2250
+Wire Wire Line
+	5000 2550 5000 2600
+Connection ~ 5000 2050
+Wire Wire Line
+	5000 2050 5350 2050
+Connection ~ 5000 2600
+Wire Wire Line
+	5000 2600 5100 2600
+Wire Wire Line
+	4900 2150 4900 2250
+Wire Wire Line
+	4900 2550 4900 2600
+Connection ~ 4900 2150
+Wire Wire Line
+	4900 2150 5250 2150
+Connection ~ 4900 2600
+Wire Wire Line
+	4900 2600 5000 2600
+$Comp
+L 74xx:74LS08 IC194
+U 2 1 66AF25C2
+P 5450 4400
+F 0 "IC194" H 5450 4725 50  0000 C CNN
+F 1 "74LS08" H 5450 4634 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5450 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5450 4400 50  0001 C CNN
+	2    5450 4400
+	1    0    0    -1  
+$EndComp
+Text Notes 500  5600 0    50   ~ 0
+ROM slot 31 is firmware\nSlots 0..30 are upper ROMs\n\nPorts:\nROM select: &dfff\nWrite control: &cfff
+$Comp
+L power:GND #PWR05
+U 1 1 6681FBF7
+P 4050 7650
+F 0 "#PWR05" H 4050 7400 50  0001 C CNN
+F 1 "GND" H 4055 7477 50  0001 C CNN
+F 2 "" H 4050 7650 50  0001 C CNN
+F 3 "" H 4050 7650 50  0001 C CNN
+	1    4050 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP7
+U 1 1 66821542
+P 4050 7450
+F 0 "JP7" V 4050 7525 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 4095 7524 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4050 7450 50  0001 C CNN
+F 3 "~" H 4050 7450 50  0001 C CNN
+	1    4050 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP6
+U 1 1 66822A5E
+P 3850 7450
+F 0 "JP6" V 3850 7525 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3895 7524 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3850 7450 50  0001 C CNN
+F 3 "~" H 3850 7450 50  0001 C CNN
+	1    3850 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 IC193
+U 1 1 668241E4
+P 3450 7050
+F 0 "IC193" H 3450 7375 50  0000 C CNN
+F 1 "74LS02" H 3450 7284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3450 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3450 7050 50  0001 C CNN
+	1    3450 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS02 IC193
+U 4 1 668270EE
+P 2950 7050
+F 0 "IC193" H 2950 7375 50  0000 C CNN
+F 1 "74LS02" H 2950 7284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2950 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2950 7050 50  0001 C CNN
+	4    2950 7050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3450 6750
+NoConn ~ 2950 6750
+$Comp
+L Device:Jumper_NC_Small JP5
+U 1 1 66838DBA
+P 3550 7450
+F 0 "JP5" V 3550 7525 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3595 7524 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3550 7450 50  0001 C CNN
+F 3 "~" H 3550 7450 50  0001 C CNN
+	1    3550 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP4
+U 1 1 6683916D
+P 3350 7450
+F 0 "JP4" V 3350 7525 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3395 7524 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3350 7450 50  0001 C CNN
+F 3 "~" H 3350 7450 50  0001 C CNN
+	1    3350 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP3
+U 1 1 668395E4
+P 3050 7450
+F 0 "JP3" V 3050 7525 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3095 7524 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3050 7450 50  0001 C CNN
+F 3 "~" H 3050 7450 50  0001 C CNN
+	1    3050 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 668399CA
+P 2850 7450
+F 0 "JP2" V 2850 7525 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 2895 7524 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2850 7450 50  0001 C CNN
+F 3 "~" H 2850 7450 50  0001 C CNN
+	1    2850 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 7550 4050 7600
+Wire Wire Line
+	4050 7600 3850 7600
+Wire Wire Line
+	2850 7600 2850 7550
+Connection ~ 4050 7600
+Wire Wire Line
+	4050 7600 4050 7650
+Wire Wire Line
+	3050 7550 3050 7600
+Connection ~ 3050 7600
+Wire Wire Line
+	3050 7600 2850 7600
+Wire Wire Line
+	3350 7550 3350 7600
+Connection ~ 3350 7600
+Wire Wire Line
+	3350 7600 3050 7600
+Wire Wire Line
+	3550 7550 3550 7600
+Connection ~ 3550 7600
+Wire Wire Line
+	3550 7600 3350 7600
+Wire Wire Line
+	3850 7550 3850 7600
+Connection ~ 3850 7600
+Wire Wire Line
+	3850 7600 3550 7600
+Wire Wire Line
+	5850 4200 5850 4400
+Wire Wire Line
+	5750 4400 5850 4400
+Wire Wire Line
+	4650 4800 5100 4800
+Wire Wire Line
+	5100 4800 5100 4500
+Wire Wire Line
+	5100 4500 5150 4500
+Connection ~ 4650 4800
+Wire Wire Line
+	5050 4900 5050 4500
+Wire Wire Line
+	5150 4300 5050 4300
+Wire Bus Line
+	1050 600  3600 600 
 Wire Bus Line
 	1350 750  1350 3900
 Wire Bus Line
-	5750 1550 5750 2300
-Wire Bus Line
 	9200 2300 9200 3200
+Wire Bus Line
+	5750 1550 5750 2300
 Wire Bus Line
 	10950 600  10950 2100
 Wire Bus Line

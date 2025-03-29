@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM708
+D Supervisor Circuit (Power on Reset, shutdown detection), 4.40V trigger, DIP-8. Synonym for MAX708. Same pinout as ADM707/MAX707.
+$ENDCMP
+#
+$CMP CPCM_IOSound_EdgeBottom
+D Connector for IO/Sound modules of the CPC Modular (bottom edge)
+$ENDCMP
+#
+$CMP CPCM_IOSound_EdgeTop
+D Connector for IO/Sound modules of the CPC Modular (top edge)
+$ENDCMP
+#
+$CMP CPCM_VideoRAM_EdgeBottom
+D CPC Modular, bottom edge connector for RAM-Video section
+$ENDCMP
+#
+$CMP CPCM_VideoRAM_EdgeTop
+D CPC Modular, top edge connector for RAM-Video section
+$ENDCMP
+#
+$CMP CPC_MX4_Connector
+D MX4 expansion connector for Amstrad CPC computers
+$ENDCMP
+#
+$CMP RS6-0505S
+D Recom RS6-0505S DC/DC converter. 4.5-9Vin, 5Vout, 6W, SIP8
+F https://www.mouser.co.uk/datasheet/2/468/RS6-1006283.pdf
+$ENDCMP
+#
+#End Doc Library

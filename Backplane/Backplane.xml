@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Dropbox\InfoLaptop\Bread80\CPC\CPCModular\Backplane\Backplane.sch</source>
+    <date>06/03/2024 22:52:47</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Backplane.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_02x25_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65100F71</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_02x25_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x25_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Top_Bottom" description="Generic connector, double row, 02x25, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654E6925</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x36_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x36_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x36_Top_Bottom" description="Generic connector, double row, 02x36, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654EE36D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x25_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65536A52</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x25_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6555A513</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x25_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6558B88B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_02x36_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x36_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x36_Top_Bottom" description="Generic connector, double row, 02x36, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6566A514</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x36_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x36_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x36_Top_Bottom" description="Generic connector, double row, 02x36, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656CF2C2</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x36_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x36_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x36_Top_Bottom" description="Generic connector, double row, 02x36, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6575D409</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_02x25_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x25_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Top_Bottom" description="Generic connector, double row, 02x25, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>658D30EB</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_02x25_Top_Bottom</value>
+      <footprint>CPCModular:Edge_Socket_2x25_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Top_Bottom" description="Generic connector, double row, 02x25, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65ABA165</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Expansion Top (Edge connector)</value>
+      <footprint>CPCModular:Edge25_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x25_Male" description="Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>655EAEA2</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Expansion Bottom (Edge connector)</value>
+      <footprint>CPCModular:Edge25_2.54PS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x25_Male" description="Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656F767B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SA5.0CA-E3/54</value>
+      <footprint>Diode_THT:D_DO-15_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88378/sa5a.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65B9BA7B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>470uF 6.3V</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65CB244E</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>USB_B</value>
+      <footprint>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65CB4E5F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220uF 100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65FFB744</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SA5.0CA-E3/54</value>
+      <footprint>Diode_THT:D_DO-15_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88378/sa5a.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65FFBE84</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SSP1S1M6xEA</value>
+      <footprint>CPCModular:E-Switch_SSP1_M6_A</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/140/500-3305222.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65FFD7A2</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>B57238S0709M000</value>
+      <footprint>Varistor:RV_Disc_D15.5mm_W5.9mm_P7.5mm</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/protection/current/ntc-limiter/data_sheet/50/db/icl_16/s238.pdf</datasheet>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66D33B28</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>MF-R600-2</value>
+      <footprint>Fuse:Fuse_Bourns_MF-RG600</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/54/mf_r-777680.pdf</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>671B1AF8</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6560F5B6</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610951</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610A4A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610AE6</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610B7D</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610C14</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610CAB</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610D42</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610DD9</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610E70</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610F07</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65610F9E</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611035</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656116EE</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611785</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6561181C</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656118B3</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6561194A</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656119E1</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611A78</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611B0F</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611BA6</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611C3D</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611CE8</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611D7F</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611E2A</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611EC1</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611F58</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65612008</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6561209F</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65612136</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656121CD</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65612264</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656122FB</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65612392</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65612429</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>661774A9</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>RS6-0505S</value>
+      <footprint>CPCModular:Recom_RS6_Series_SIP8</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/468/RS6-1006283.pdf</datasheet>
+      <libsource lib="CPCModular" part="RS6-0505S" description="Recom RS6-0505S DC/DC converter. 4.5-9Vin, 5Vout, 6W, SIP8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69C1EE07</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>POWER</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65642D5D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65644EF8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>PTS645VH58-2 LFS</value>
+      <footprint>Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65A2A316</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611657</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656115C0</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611529</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611492</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656113BF</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611328</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611291</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656111FA</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65611163</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656110CC</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>PESD5V0V1BA</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/916/PESD5V0V1BA-2938289.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65D4FF25</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66011795</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66019365</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6601945B</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66019572</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6601977F</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66019888</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>TE 171826-4</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6589FD1B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6632FCE9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10V 47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6633058C</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66331408</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74LS132</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS132</datasheet>
+      <libsource lib="74xx" part="74LS132" description="Quad 2-input NAND Schmitt trigger"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6633348D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>671EA8FD</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TMU 3-0512</value>
+      <footprint>Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxxSC_THT</footprint>
+      <datasheet>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="CRE1S2412SC" description="24V to 12V 83mA DC-DC Converter with 1kV isolation, SIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>682884A6</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>SA12CA</value>
+      <footprint>Diode_THT:D_DO-15_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88378/sa5a.pdf</datasheet>
+      <libsource lib="Device" part="D_TVS_ALT" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6828B91E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>220uF 100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6828BFBA</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>SCART POWER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6AA1DF48</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Barrel_Jack_MountingPin</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_MountingPin" description="DC Barrel Jack with a mounting pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6B310EC3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS132">
+      <description>Quad 2-input NAND Schmitt trigger</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS132</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS132</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CPCModular" part="RS6-0505S">
+      <description>Recom RS6-0505S DC/DC converter. 4.5-9Vin, 5Vout, 6W, SIP8</description>
+      <docs>https://www.mouser.co.uk/datasheet/2/468/RS6-1006283.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">RS6-0505S</field>
+        <field name="Footprint">CPCModular:Recom_RS6_Series_SIP8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin-" type="power_in"/>
+        <pin num="2" name="Vin+" type="power_in"/>
+        <pin num="3" name="ON/OFF" type="input"/>
+        <pin num="5" name="TRIM" type="input"/>
+        <pin num="6" name="Vout+" type="power_out"/>
+        <pin num="7" name="Vout-" type="power_out"/>
+        <pin num="8" name="N/C" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_MountingPin">
+      <description>DC Barrel Jack with a mounting pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x25_Male">
+      <description>Generic connector, single row, 01x25, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x25_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x25_Odd_Even">
+      <description>Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x25_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x25_Top_Bottom">
+      <description>Generic connector, double row, 02x25, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x25_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x36_Top_Bottom">
+      <description>Generic connector, double row, 02x36, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x36_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+        <pin num="51" name="Pin_51" type="passive"/>
+        <pin num="52" name="Pin_52" type="passive"/>
+        <pin num="53" name="Pin_53" type="passive"/>
+        <pin num="54" name="Pin_54" type="passive"/>
+        <pin num="55" name="Pin_55" type="passive"/>
+        <pin num="56" name="Pin_56" type="passive"/>
+        <pin num="57" name="Pin_57" type="passive"/>
+        <pin num="58" name="Pin_58" type="passive"/>
+        <pin num="59" name="Pin_59" type="passive"/>
+        <pin num="60" name="Pin_60" type="passive"/>
+        <pin num="61" name="Pin_61" type="passive"/>
+        <pin num="62" name="Pin_62" type="passive"/>
+        <pin num="63" name="Pin_63" type="passive"/>
+        <pin num="64" name="Pin_64" type="passive"/>
+        <pin num="65" name="Pin_65" type="passive"/>
+        <pin num="66" name="Pin_66" type="passive"/>
+        <pin num="67" name="Pin_67" type="passive"/>
+        <pin num="68" name="Pin_68" type="passive"/>
+        <pin num="69" name="Pin_69" type="passive"/>
+        <pin num="70" name="Pin_70" type="passive"/>
+        <pin num="71" name="Pin_71" type="passive"/>
+        <pin num="72" name="Pin_72" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS_ALT">
+      <description>Bidirectional transient-voltage-suppression diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="CRE1S0505SC">
+      <aliases>
+        <alias>CRE1S0515SC</alias>
+        <alias>CRE1S1205SC</alias>
+        <alias>CRE1S1212SC</alias>
+        <alias>CRE1S2405SC</alias>
+        <alias>CRE1S2412SC</alias>
+      </aliases>
+      <description>5V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4</description>
+      <docs>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*muRata*CRE1xxxxxxSC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CRE1S0505SC</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxxSC_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="+VIN" type="power_in"/>
+        <pin num="3" name="-VOUT" type="power_out"/>
+        <pin num="4" name="+VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xx.lib</uri>
+    </library>
+    <library logical="CPCModular">
+      <uri>C:/Dropbox/InfoLaptop/Bread80/CPC/CPCModular/CPCModular.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BDIR">
+      <node ref="J10" pin="43"/>
+      <node ref="J11" pin="43"/>
+      <node ref="J9" pin="43"/>
+    </net>
+    <net code="2" name="/~CPU_ADDR">
+      <node ref="J7" pin="61"/>
+      <node ref="J8" pin="61"/>
+      <node ref="J5" pin="61"/>
+      <node ref="J6" pin="61"/>
+      <node ref="J10" pin="48"/>
+      <node ref="J9" pin="48"/>
+      <node ref="J11" pin="48"/>
+    </net>
+    <net code="3" name="/VSYNC">
+      <node ref="J10" pin="24"/>
+      <node ref="J9" pin="24"/>
+      <node ref="J11" pin="24"/>
+      <node ref="J7" pin="25"/>
+      <node ref="J5" pin="25"/>
+      <node ref="J6" pin="25"/>
+      <node ref="J8" pin="25"/>
+    </net>
+    <net code="4" name="/PA0">
+      <node ref="J10" pin="34"/>
+      <node ref="J11" pin="34"/>
+      <node ref="J9" pin="34"/>
+    </net>
+    <net code="5" name="/PA2">
+      <node ref="J9" pin="35"/>
+      <node ref="J10" pin="35"/>
+      <node ref="J11" pin="35"/>
+    </net>
+    <net code="6" name="/PA4">
+      <node ref="J10" pin="36"/>
+      <node ref="J11" pin="36"/>
+      <node ref="J9" pin="36"/>
+    </net>
+    <net code="7" name="/PA6">
+      <node ref="J11" pin="37"/>
+      <node ref="J10" pin="37"/>
+      <node ref="J9" pin="37"/>
+    </net>
+    <net code="8" name="/MOTOR">
+      <node ref="J10" pin="45"/>
+      <node ref="J9" pin="45"/>
+      <node ref="J11" pin="45"/>
+    </net>
+    <net code="9" name="/CASWR">
+      <node ref="J11" pin="27"/>
+      <node ref="J10" pin="27"/>
+      <node ref="J9" pin="27"/>
+    </net>
+    <net code="10" name="/BC1">
+      <node ref="J10" pin="44"/>
+      <node ref="J9" pin="44"/>
+      <node ref="J11" pin="44"/>
+    </net>
+    <net code="11" name="/A14">
+      <node ref="J8" pin="39"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J7" pin="39"/>
+      <node ref="D28" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J11" pin="30"/>
+      <node ref="J10" pin="30"/>
+      <node ref="J5" pin="39"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J6" pin="39"/>
+      <node ref="J9" pin="30"/>
+    </net>
+    <net code="12" name="/PC2">
+      <node ref="J9" pin="47"/>
+      <node ref="J11" pin="47"/>
+      <node ref="J10" pin="47"/>
+    </net>
+    <net code="13" name="/PC0">
+      <node ref="J9" pin="46"/>
+      <node ref="J11" pin="46"/>
+      <node ref="J10" pin="46"/>
+    </net>
+    <net code="14" name="/PC3">
+      <node ref="J10" pin="23"/>
+      <node ref="J9" pin="23"/>
+      <node ref="J11" pin="23"/>
+    </net>
+    <net code="15" name="/PC1">
+      <node ref="J11" pin="22"/>
+      <node ref="J9" pin="22"/>
+      <node ref="J10" pin="22"/>
+    </net>
+    <net code="16" name="/RIGHT">
+      <node ref="J9" pin="28"/>
+      <node ref="J10" pin="28"/>
+      <node ref="J11" pin="28"/>
+    </net>
+    <net code="17" name="/PA1">
+      <node ref="J11" pin="9"/>
+      <node ref="J9" pin="9"/>
+      <node ref="J10" pin="9"/>
+    </net>
+    <net code="18" name="/PA3">
+      <node ref="J11" pin="10"/>
+      <node ref="J10" pin="10"/>
+      <node ref="J9" pin="10"/>
+    </net>
+    <net code="19" name="/PA5">
+      <node ref="J11" pin="11"/>
+      <node ref="J10" pin="11"/>
+      <node ref="J9" pin="11"/>
+    </net>
+    <net code="20" name="/PA7">
+      <node ref="J10" pin="12"/>
+      <node ref="J9" pin="12"/>
+      <node ref="J11" pin="12"/>
+    </net>
+    <net code="21" name="/~RSET">
+      <node ref="J9" pin="21"/>
+      <node ref="J5" pin="21"/>
+      <node ref="J12" pin="21"/>
+      <node ref="J4" pin="41"/>
+      <node ref="J11" pin="21"/>
+      <node ref="J3" pin="41"/>
+      <node ref="J10" pin="21"/>
+      <node ref="J7" pin="21"/>
+      <node ref="U2" pin="6"/>
+      <node ref="D24" pin="1"/>
+      <node ref="J1" pin="41"/>
+      <node ref="J2" pin="41"/>
+      <node ref="J6" pin="21"/>
+      <node ref="J8" pin="21"/>
+    </net>
+    <net code="22" name="/A13">
+      <node ref="J5" pin="4"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J9" pin="6"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J11" pin="6"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="23" name="/A11">
+      <node ref="J7" pin="5"/>
+      <node ref="J11" pin="7"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J10" pin="7"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J12" pin="4"/>
+      <node ref="J9" pin="7"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="24" name="/A9">
+      <node ref="J8" pin="6"/>
+      <node ref="J6" pin="6"/>
+      <node ref="J10" pin="8"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J9" pin="8"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J11" pin="8"/>
+      <node ref="J12" pin="5"/>
+      <node ref="J4" pin="9"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J2" pin="9"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="25" name="/D7">
+      <node ref="J3" pin="19"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J5" pin="11"/>
+      <node ref="J9" pin="13"/>
+      <node ref="J2" pin="19"/>
+      <node ref="D13" pin="1"/>
+      <node ref="J4" pin="19"/>
+      <node ref="J8" pin="11"/>
+      <node ref="J6" pin="11"/>
+      <node ref="J7" pin="11"/>
+      <node ref="J12" pin="10"/>
+      <node ref="J11" pin="13"/>
+      <node ref="J10" pin="13"/>
+    </net>
+    <net code="26" name="/D5">
+      <node ref="J11" pin="14"/>
+      <node ref="J5" pin="12"/>
+      <node ref="J4" pin="21"/>
+      <node ref="J12" pin="11"/>
+      <node ref="J7" pin="12"/>
+      <node ref="J1" pin="21"/>
+      <node ref="J3" pin="21"/>
+      <node ref="J8" pin="12"/>
+      <node ref="J9" pin="14"/>
+      <node ref="J2" pin="21"/>
+      <node ref="D14" pin="1"/>
+      <node ref="J6" pin="12"/>
+      <node ref="J10" pin="14"/>
+    </net>
+    <net code="27" name="/D3">
+      <node ref="J1" pin="23"/>
+      <node ref="J11" pin="15"/>
+      <node ref="D15" pin="1"/>
+      <node ref="J2" pin="23"/>
+      <node ref="J3" pin="23"/>
+      <node ref="J9" pin="15"/>
+      <node ref="J8" pin="13"/>
+      <node ref="J10" pin="15"/>
+      <node ref="J7" pin="13"/>
+      <node ref="J5" pin="13"/>
+      <node ref="J6" pin="13"/>
+      <node ref="J12" pin="12"/>
+      <node ref="J4" pin="23"/>
+    </net>
+    <net code="28" name="/D1">
+      <node ref="J8" pin="14"/>
+      <node ref="J3" pin="25"/>
+      <node ref="J10" pin="16"/>
+      <node ref="J7" pin="14"/>
+      <node ref="J5" pin="14"/>
+      <node ref="J12" pin="13"/>
+      <node ref="J4" pin="25"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J9" pin="16"/>
+      <node ref="D16" pin="1"/>
+      <node ref="J11" pin="16"/>
+      <node ref="J6" pin="14"/>
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="29" name="/~M1">
+      <node ref="J3" pin="29"/>
+      <node ref="J2" pin="29"/>
+      <node ref="J4" pin="29"/>
+      <node ref="J7" pin="16"/>
+      <node ref="J10" pin="18"/>
+      <node ref="J11" pin="18"/>
+      <node ref="J6" pin="16"/>
+      <node ref="J1" pin="29"/>
+      <node ref="J5" pin="16"/>
+      <node ref="D18" pin="1"/>
+      <node ref="J9" pin="18"/>
+      <node ref="J8" pin="16"/>
+      <node ref="J12" pin="15"/>
+    </net>
+    <net code="30" name="/~IORQ">
+      <node ref="J3" pin="31"/>
+      <node ref="J1" pin="31"/>
+      <node ref="J10" pin="19"/>
+      <node ref="D19" pin="1"/>
+      <node ref="J5" pin="17"/>
+      <node ref="J12" pin="16"/>
+      <node ref="J2" pin="31"/>
+      <node ref="J11" pin="19"/>
+      <node ref="J4" pin="31"/>
+      <node ref="J7" pin="17"/>
+      <node ref="J9" pin="19"/>
+      <node ref="J8" pin="17"/>
+      <node ref="J6" pin="17"/>
+    </net>
+    <net code="31" name="/~WR">
+      <node ref="J1" pin="33"/>
+      <node ref="J3" pin="33"/>
+      <node ref="J7" pin="18"/>
+      <node ref="J2" pin="33"/>
+      <node ref="J11" pin="20"/>
+      <node ref="J6" pin="18"/>
+      <node ref="J9" pin="20"/>
+      <node ref="D20" pin="1"/>
+      <node ref="J12" pin="17"/>
+      <node ref="J10" pin="20"/>
+      <node ref="J4" pin="33"/>
+      <node ref="J5" pin="18"/>
+      <node ref="J8" pin="18"/>
+    </net>
+    <net code="32" name="/~EXP">
+      <node ref="J10" pin="50"/>
+      <node ref="J9" pin="50"/>
+      <node ref="J13" pin="24"/>
+      <node ref="J4" pin="48"/>
+      <node ref="J3" pin="48"/>
+      <node ref="D50" pin="1"/>
+      <node ref="J1" pin="48"/>
+      <node ref="J11" pin="50"/>
+      <node ref="J2" pin="48"/>
+    </net>
+    <net code="33" name="/~RD">
+      <node ref="J4" pin="32"/>
+      <node ref="J7" pin="52"/>
+      <node ref="J11" pin="42"/>
+      <node ref="D42" pin="1"/>
+      <node ref="J1" pin="32"/>
+      <node ref="J3" pin="32"/>
+      <node ref="J13" pin="16"/>
+      <node ref="J10" pin="42"/>
+      <node ref="J5" pin="52"/>
+      <node ref="J6" pin="52"/>
+      <node ref="J9" pin="42"/>
+      <node ref="J2" pin="32"/>
+      <node ref="J8" pin="52"/>
+    </net>
+    <net code="34" name="/D0">
+      <node ref="J11" pin="41"/>
+      <node ref="D39" pin="1"/>
+      <node ref="J8" pin="50"/>
+      <node ref="J3" pin="26"/>
+      <node ref="J2" pin="26"/>
+      <node ref="J9" pin="41"/>
+      <node ref="J13" pin="13"/>
+      <node ref="J4" pin="26"/>
+      <node ref="J6" pin="50"/>
+      <node ref="J5" pin="50"/>
+      <node ref="J1" pin="26"/>
+      <node ref="J10" pin="41"/>
+      <node ref="J7" pin="50"/>
+    </net>
+    <net code="35" name="/D2">
+      <node ref="D38" pin="1"/>
+      <node ref="J2" pin="24"/>
+      <node ref="J6" pin="49"/>
+      <node ref="J10" pin="40"/>
+      <node ref="J5" pin="49"/>
+      <node ref="J1" pin="24"/>
+      <node ref="J3" pin="24"/>
+      <node ref="J7" pin="49"/>
+      <node ref="J8" pin="49"/>
+      <node ref="J11" pin="40"/>
+      <node ref="J13" pin="12"/>
+      <node ref="J9" pin="40"/>
+      <node ref="J4" pin="24"/>
+    </net>
+    <net code="36" name="/D4">
+      <node ref="D37" pin="1"/>
+      <node ref="J2" pin="22"/>
+      <node ref="J7" pin="48"/>
+      <node ref="J11" pin="39"/>
+      <node ref="J13" pin="11"/>
+      <node ref="J9" pin="39"/>
+      <node ref="J4" pin="22"/>
+      <node ref="J5" pin="48"/>
+      <node ref="J6" pin="48"/>
+      <node ref="J1" pin="22"/>
+      <node ref="J10" pin="39"/>
+      <node ref="J3" pin="22"/>
+      <node ref="J8" pin="48"/>
+    </net>
+    <net code="37" name="/D6">
+      <node ref="J10" pin="38"/>
+      <node ref="J7" pin="47"/>
+      <node ref="J6" pin="47"/>
+      <node ref="J4" pin="20"/>
+      <node ref="J5" pin="47"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J3" pin="20"/>
+      <node ref="J8" pin="47"/>
+      <node ref="J9" pin="38"/>
+      <node ref="J2" pin="20"/>
+      <node ref="J13" pin="10"/>
+      <node ref="D36" pin="1"/>
+      <node ref="J11" pin="38"/>
+    </net>
+    <net code="38" name="/A8">
+      <node ref="D31" pin="1"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J11" pin="33"/>
+      <node ref="J13" pin="5"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J5" pin="42"/>
+      <node ref="J3" pin="10"/>
+      <node ref="J9" pin="33"/>
+      <node ref="J6" pin="42"/>
+      <node ref="J4" pin="10"/>
+      <node ref="J8" pin="42"/>
+      <node ref="J10" pin="33"/>
+      <node ref="J7" pin="42"/>
+    </net>
+    <net code="39" name="/A10">
+      <node ref="J6" pin="41"/>
+      <node ref="J8" pin="41"/>
+      <node ref="J11" pin="32"/>
+      <node ref="J13" pin="4"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J9" pin="32"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J7" pin="41"/>
+      <node ref="J10" pin="32"/>
+      <node ref="J4" pin="8"/>
+      <node ref="D30" pin="1"/>
+      <node ref="J5" pin="41"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="40" name="/A12">
+      <node ref="J10" pin="31"/>
+      <node ref="J9" pin="31"/>
+      <node ref="D29" pin="1"/>
+      <node ref="J8" pin="40"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J5" pin="40"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J6" pin="40"/>
+      <node ref="J11" pin="31"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J7" pin="40"/>
+    </net>
+    <net code="41" name="/PRTBSY">
+      <node ref="J11" pin="49"/>
+      <node ref="J9" pin="49"/>
+      <node ref="J10" pin="49"/>
+    </net>
+    <net code="42" name="/A15">
+      <node ref="J4" pin="3"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J9" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J11" pin="5"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="43" name="GND">
+      <node ref="D47" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J10" pin="29"/>
+      <node ref="J9" pin="26"/>
+      <node ref="J11" pin="26"/>
+      <node ref="J9" pin="29"/>
+      <node ref="J9" pin="25"/>
+      <node ref="J11" pin="25"/>
+      <node ref="J11" pin="29"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J7" pin="36"/>
+      <node ref="J7" pin="37"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="49"/>
+      <node ref="J2" pin="49"/>
+      <node ref="D22" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J9" pin="4"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="J12" pin="25"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="J11" pin="4"/>
+      <node ref="J5" pin="37"/>
+      <node ref="J3" pin="49"/>
+      <node ref="J5" pin="36"/>
+      <node ref="J8" pin="36"/>
+      <node ref="J8" pin="37"/>
+      <node ref="J1" pin="49"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="H3" pin="1"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="H5" pin="1"/>
+      <node ref="D45" pin="2"/>
+      <node ref="H6" pin="1"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J17" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="12"/>
+      <node ref="H4" pin="1"/>
+      <node ref="J6" pin="36"/>
+      <node ref="J6" pin="37"/>
+      <node ref="U3" pin="1"/>
+      <node ref="D15" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J10" pin="4"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J10" pin="26"/>
+      <node ref="J10" pin="25"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="44" name="+5V">
+      <node ref="R2" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="J2" pin="27"/>
+      <node ref="J7" pin="15"/>
+      <node ref="J15" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="27"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="J5" pin="15"/>
+      <node ref="J12" pin="14"/>
+      <node ref="J4" pin="27"/>
+      <node ref="J6" pin="15"/>
+      <node ref="J17" pin="2"/>
+      <node ref="J10" pin="17"/>
+      <node ref="J11" pin="17"/>
+      <node ref="J8" pin="15"/>
+      <node ref="J9" pin="17"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J3" pin="27"/>
+    </net>
+    <net code="45" name="/CLK4">
+      <node ref="J7" pin="56"/>
+      <node ref="J4" pin="50"/>
+      <node ref="J13" pin="25"/>
+      <node ref="D51" pin="1"/>
+      <node ref="J2" pin="50"/>
+      <node ref="J8" pin="56"/>
+      <node ref="J6" pin="56"/>
+      <node ref="J3" pin="50"/>
+      <node ref="J1" pin="50"/>
+      <node ref="J5" pin="56"/>
+    </net>
+    <net code="46" name="/~RFSH">
+      <node ref="J3" pin="30"/>
+      <node ref="J13" pin="15"/>
+      <node ref="J4" pin="30"/>
+      <node ref="J1" pin="30"/>
+      <node ref="J2" pin="30"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="47" name="/~MREQ">
+      <node ref="J3" pin="28"/>
+      <node ref="J4" pin="28"/>
+      <node ref="J13" pin="14"/>
+      <node ref="J6" pin="51"/>
+      <node ref="J1" pin="28"/>
+      <node ref="J8" pin="51"/>
+      <node ref="D40" pin="1"/>
+      <node ref="J2" pin="28"/>
+      <node ref="J7" pin="51"/>
+      <node ref="J5" pin="51"/>
+    </net>
+    <net code="48" name="/~HALT">
+      <node ref="J13" pin="17"/>
+      <node ref="D43" pin="1"/>
+      <node ref="J2" pin="34"/>
+      <node ref="J3" pin="34"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J4" pin="34"/>
+    </net>
+    <net code="49" name="/~NMI">
+      <node ref="J3" pin="36"/>
+      <node ref="J4" pin="36"/>
+      <node ref="J13" pin="18"/>
+      <node ref="D44" pin="1"/>
+      <node ref="J1" pin="36"/>
+      <node ref="J2" pin="36"/>
+    </net>
+    <net code="50" name="/~BUSAK">
+      <node ref="J1" pin="38"/>
+      <node ref="J13" pin="19"/>
+      <node ref="J4" pin="38"/>
+      <node ref="J2" pin="38"/>
+      <node ref="D45" pin="1"/>
+      <node ref="J3" pin="38"/>
+    </net>
+    <net code="51" name="/~BRST">
+      <node ref="R3" pin="1"/>
+      <node ref="J13" pin="20"/>
+      <node ref="J1" pin="40"/>
+      <node ref="J4" pin="40"/>
+      <node ref="J2" pin="40"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J3" pin="40"/>
+    </net>
+    <net code="52" name="/~ROMEN">
+      <node ref="J8" pin="53"/>
+      <node ref="J13" pin="21"/>
+      <node ref="J5" pin="53"/>
+      <node ref="J6" pin="53"/>
+      <node ref="J1" pin="42"/>
+      <node ref="J7" pin="53"/>
+      <node ref="D47" pin="1"/>
+      <node ref="J2" pin="42"/>
+      <node ref="J3" pin="42"/>
+      <node ref="J4" pin="42"/>
+    </net>
+    <net code="53" name="/~RAMRD">
+      <node ref="J8" pin="54"/>
+      <node ref="J13" pin="22"/>
+      <node ref="D48" pin="1"/>
+      <node ref="J1" pin="44"/>
+      <node ref="J7" pin="54"/>
+      <node ref="J5" pin="54"/>
+      <node ref="J6" pin="54"/>
+      <node ref="J3" pin="44"/>
+      <node ref="J4" pin="44"/>
+      <node ref="J2" pin="44"/>
+    </net>
+    <net code="54" name="/CURSOR">
+      <node ref="J1" pin="46"/>
+      <node ref="J3" pin="46"/>
+      <node ref="J8" pin="55"/>
+      <node ref="J13" pin="23"/>
+      <node ref="J7" pin="55"/>
+      <node ref="J5" pin="55"/>
+      <node ref="J6" pin="55"/>
+      <node ref="J4" pin="46"/>
+      <node ref="J2" pin="46"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="55" name="/A0">
+      <node ref="J5" pin="46"/>
+      <node ref="J4" pin="18"/>
+      <node ref="J3" pin="18"/>
+      <node ref="D35" pin="1"/>
+      <node ref="J7" pin="46"/>
+      <node ref="J2" pin="18"/>
+      <node ref="J6" pin="46"/>
+      <node ref="J13" pin="9"/>
+      <node ref="J8" pin="46"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="56" name="/A2">
+      <node ref="J6" pin="45"/>
+      <node ref="J7" pin="45"/>
+      <node ref="D34" pin="1"/>
+      <node ref="J13" pin="8"/>
+      <node ref="J2" pin="16"/>
+      <node ref="J8" pin="45"/>
+      <node ref="J1" pin="16"/>
+      <node ref="J5" pin="45"/>
+      <node ref="J3" pin="16"/>
+      <node ref="J4" pin="16"/>
+    </net>
+    <net code="57" name="/A4">
+      <node ref="J7" pin="44"/>
+      <node ref="J5" pin="44"/>
+      <node ref="J3" pin="14"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J13" pin="7"/>
+      <node ref="J8" pin="44"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J6" pin="44"/>
+      <node ref="D33" pin="1"/>
+      <node ref="J4" pin="14"/>
+    </net>
+    <net code="58" name="/A6">
+      <node ref="J4" pin="12"/>
+      <node ref="D32" pin="1"/>
+      <node ref="J13" pin="6"/>
+      <node ref="J3" pin="12"/>
+      <node ref="J2" pin="12"/>
+      <node ref="J6" pin="43"/>
+      <node ref="J7" pin="43"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J8" pin="43"/>
+      <node ref="J5" pin="43"/>
+    </net>
+    <net code="59" name="/CASRD">
+      <node ref="J10" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="60" name="/LEFT">
+      <node ref="J9" pin="3"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="61" name="/A14OUT">
+      <node ref="J5" pin="38"/>
+      <node ref="J7" pin="38"/>
+      <node ref="J6" pin="38"/>
+      <node ref="J8" pin="38"/>
+    </net>
+    <net code="62" name="/~MWE">
+      <node ref="J6" pin="63"/>
+      <node ref="J7" pin="63"/>
+      <node ref="J8" pin="63"/>
+      <node ref="J5" pin="63"/>
+    </net>
+    <net code="63" name="/~244EN">
+      <node ref="J8" pin="59"/>
+      <node ref="J7" pin="59"/>
+      <node ref="J5" pin="59"/>
+      <node ref="J6" pin="59"/>
+    </net>
+    <net code="64" name="/~XCPU_AD">
+      <node ref="J7" pin="60"/>
+      <node ref="J6" pin="60"/>
+      <node ref="J5" pin="60"/>
+      <node ref="J8" pin="60"/>
+    </net>
+    <net code="65" name="/~RAMCS">
+      <node ref="J6" pin="64"/>
+      <node ref="J5" pin="64"/>
+      <node ref="J7" pin="64"/>
+      <node ref="J8" pin="64"/>
+    </net>
+    <net code="66" name="/~RAMOE">
+      <node ref="J6" pin="28"/>
+      <node ref="J7" pin="28"/>
+      <node ref="J8" pin="28"/>
+      <node ref="J5" pin="28"/>
+    </net>
+    <net code="67" name="/~RAMWE">
+      <node ref="J6" pin="29"/>
+      <node ref="J7" pin="29"/>
+      <node ref="J8" pin="29"/>
+      <node ref="J5" pin="29"/>
+    </net>
+    <net code="68" name="/RAMA18">
+      <node ref="J7" pin="65"/>
+      <node ref="J6" pin="65"/>
+      <node ref="J8" pin="65"/>
+      <node ref="J5" pin="65"/>
+    </net>
+    <net code="69" name="/RAMA17">
+      <node ref="J5" pin="30"/>
+      <node ref="J8" pin="30"/>
+      <node ref="J7" pin="30"/>
+      <node ref="J6" pin="30"/>
+    </net>
+    <net code="70" name="/RAMA16">
+      <node ref="J5" pin="66"/>
+      <node ref="J7" pin="66"/>
+      <node ref="J6" pin="66"/>
+      <node ref="J8" pin="66"/>
+    </net>
+    <net code="71" name="/A15OUT">
+      <node ref="J5" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="72" name="/~CAS">
+      <node ref="J7" pin="58"/>
+      <node ref="J6" pin="58"/>
+      <node ref="J5" pin="58"/>
+      <node ref="J8" pin="58"/>
+    </net>
+    <net code="73" name="/HSYNC">
+      <node ref="J6" pin="26"/>
+      <node ref="J8" pin="26"/>
+      <node ref="J5" pin="26"/>
+      <node ref="J7" pin="26"/>
+    </net>
+    <net code="74" name="/DISPEN">
+      <node ref="J6" pin="27"/>
+      <node ref="J7" pin="27"/>
+      <node ref="J8" pin="27"/>
+      <node ref="J5" pin="27"/>
+    </net>
+    <net code="75" name="/~MA0_CCLK">
+      <node ref="J8" pin="57"/>
+      <node ref="J7" pin="57"/>
+      <node ref="J6" pin="57"/>
+      <node ref="J5" pin="57"/>
+    </net>
+    <net code="76" name="/SPARE1">
+      <node ref="J8" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="77" name="/RD7">
+      <node ref="J7" pin="32"/>
+      <node ref="J8" pin="32"/>
+      <node ref="J5" pin="32"/>
+      <node ref="J6" pin="32"/>
+    </net>
+    <net code="78" name="/RD5">
+      <node ref="J8" pin="33"/>
+      <node ref="J5" pin="33"/>
+      <node ref="J6" pin="33"/>
+      <node ref="J7" pin="33"/>
+    </net>
+    <net code="79" name="/RD3">
+      <node ref="J6" pin="34"/>
+      <node ref="J5" pin="34"/>
+      <node ref="J7" pin="34"/>
+      <node ref="J8" pin="34"/>
+    </net>
+    <net code="80" name="/RD1">
+      <node ref="J8" pin="35"/>
+      <node ref="J7" pin="35"/>
+      <node ref="J5" pin="35"/>
+      <node ref="J6" pin="35"/>
+    </net>
+    <net code="81" name="/RD6">
+      <node ref="J7" pin="68"/>
+      <node ref="J8" pin="68"/>
+      <node ref="J5" pin="68"/>
+      <node ref="J6" pin="68"/>
+    </net>
+    <net code="82" name="/RD4">
+      <node ref="J5" pin="69"/>
+      <node ref="J7" pin="69"/>
+      <node ref="J6" pin="69"/>
+      <node ref="J8" pin="69"/>
+    </net>
+    <net code="83" name="/RD2">
+      <node ref="J8" pin="70"/>
+      <node ref="J6" pin="70"/>
+      <node ref="J5" pin="70"/>
+      <node ref="J7" pin="70"/>
+    </net>
+    <net code="84" name="/RD0">
+      <node ref="J5" pin="71"/>
+      <node ref="J6" pin="71"/>
+      <node ref="J7" pin="71"/>
+      <node ref="J8" pin="71"/>
+    </net>
+    <net code="85" name="/~RAS">
+      <node ref="J7" pin="62"/>
+      <node ref="J8" pin="62"/>
+      <node ref="J6" pin="62"/>
+      <node ref="J5" pin="62"/>
+    </net>
+    <net code="86" name="/SPARE5">
+      <node ref="J8" pin="72"/>
+      <node ref="J6" pin="72"/>
+      <node ref="J5" pin="72"/>
+      <node ref="J7" pin="72"/>
+    </net>
+    <net code="87" name="/READY">
+      <node ref="J3" pin="39"/>
+      <node ref="J12" pin="20"/>
+      <node ref="J2" pin="39"/>
+      <node ref="J8" pin="20"/>
+      <node ref="J4" pin="39"/>
+      <node ref="J1" pin="39"/>
+      <node ref="D23" pin="1"/>
+      <node ref="J5" pin="20"/>
+      <node ref="J6" pin="20"/>
+      <node ref="J7" pin="20"/>
+    </net>
+    <net code="88" name="/SPARE2">
+      <node ref="J8" pin="22"/>
+      <node ref="J5" pin="22"/>
+      <node ref="J7" pin="22"/>
+      <node ref="J6" pin="22"/>
+    </net>
+    <net code="89" name="/RAMDIS">
+      <node ref="J3" pin="45"/>
+      <node ref="D26" pin="1"/>
+      <node ref="J4" pin="45"/>
+      <node ref="J12" pin="23"/>
+      <node ref="J5" pin="23"/>
+      <node ref="J8" pin="23"/>
+      <node ref="J1" pin="45"/>
+      <node ref="J2" pin="45"/>
+      <node ref="J7" pin="23"/>
+      <node ref="J6" pin="23"/>
+    </net>
+    <net code="90" name="/LPEN">
+      <node ref="J7" pin="24"/>
+      <node ref="J5" pin="24"/>
+      <node ref="J3" pin="47"/>
+      <node ref="J4" pin="47"/>
+      <node ref="J6" pin="24"/>
+      <node ref="D27" pin="1"/>
+      <node ref="J1" pin="47"/>
+      <node ref="J12" pin="24"/>
+      <node ref="J8" pin="24"/>
+      <node ref="J2" pin="47"/>
+    </net>
+    <net code="91" name="/A7">
+      <node ref="J8" pin="7"/>
+      <node ref="J4" pin="11"/>
+      <node ref="J1" pin="11"/>
+      <node ref="D9" pin="1"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J12" pin="6"/>
+      <node ref="J6" pin="7"/>
+      <node ref="J3" pin="11"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="92" name="/A5">
+      <node ref="J1" pin="13"/>
+      <node ref="J12" pin="7"/>
+      <node ref="J4" pin="13"/>
+      <node ref="J6" pin="8"/>
+      <node ref="J2" pin="13"/>
+      <node ref="D10" pin="1"/>
+      <node ref="J3" pin="13"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J7" pin="8"/>
+      <node ref="J8" pin="8"/>
+    </net>
+    <net code="93" name="/A3">
+      <node ref="J5" pin="9"/>
+      <node ref="J7" pin="9"/>
+      <node ref="D11" pin="1"/>
+      <node ref="J3" pin="15"/>
+      <node ref="J6" pin="9"/>
+      <node ref="J1" pin="15"/>
+      <node ref="J8" pin="9"/>
+      <node ref="J12" pin="8"/>
+      <node ref="J4" pin="15"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="94" name="/A1">
+      <node ref="J1" pin="17"/>
+      <node ref="J4" pin="17"/>
+      <node ref="J7" pin="10"/>
+      <node ref="J8" pin="10"/>
+      <node ref="J2" pin="17"/>
+      <node ref="J6" pin="10"/>
+      <node ref="J3" pin="17"/>
+      <node ref="J5" pin="10"/>
+      <node ref="J12" pin="9"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="95" name="/~INT">
+      <node ref="J1" pin="35"/>
+      <node ref="J5" pin="19"/>
+      <node ref="D21" pin="1"/>
+      <node ref="J8" pin="19"/>
+      <node ref="J12" pin="18"/>
+      <node ref="J2" pin="35"/>
+      <node ref="J4" pin="35"/>
+      <node ref="J7" pin="19"/>
+      <node ref="J3" pin="35"/>
+      <node ref="J6" pin="19"/>
+    </net>
+    <net code="96" name="/~BUSRQ">
+      <node ref="J4" pin="37"/>
+      <node ref="J12" pin="19"/>
+      <node ref="J2" pin="37"/>
+      <node ref="J3" pin="37"/>
+      <node ref="J1" pin="37"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="97" name="/SPARE3">
+      <node ref="J5" pin="31"/>
+      <node ref="J8" pin="31"/>
+      <node ref="J7" pin="31"/>
+      <node ref="J6" pin="31"/>
+    </net>
+    <net code="98" name="/SPARE4">
+      <node ref="J8" pin="67"/>
+      <node ref="J5" pin="67"/>
+      <node ref="J6" pin="67"/>
+      <node ref="J7" pin="67"/>
+    </net>
+    <net code="99" name="/ROMDIS">
+      <node ref="J12" pin="22"/>
+      <node ref="J4" pin="43"/>
+      <node ref="D25" pin="1"/>
+      <node ref="J3" pin="43"/>
+      <node ref="J2" pin="43"/>
+      <node ref="J1" pin="43"/>
+    </net>
+    <net code="100" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="101" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="102" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="103" name="/SOUND">
+      <node ref="J1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="104" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="105" name="+12V">
+      <node ref="U3" pin="4"/>
+      <node ref="J15" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="106" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="107" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="108" name="Net-(J16-Pad1)">
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="109" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="110" name="Net-(J16-PadMP)">
+      <node ref="J16" pin="MP"/>
+    </net>
+    <net code="111" name="/SWITCHED_5V">
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="112" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="D52" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="113" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="114" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="TH1" pin="1"/>
+    </net>
+    <net code="115" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="TH1" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="116" name="Net-(F1-Pad2)">
+      <node ref="J14" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="117" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J14" pin="5"/>
+    </net>
+    <net code="118" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="119" name="Net-(J14-Pad2)">
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="120" name="Net-(J14-Pad3)">
+      <node ref="J14" pin="3"/>
+    </net>
+  </nets>
+</export>

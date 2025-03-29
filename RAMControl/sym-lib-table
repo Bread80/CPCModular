@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CPCRAMCtrl-rescue)(type Legacy)(uri ${KIPRJMOD}/CPCRAMCtrl-rescue.lib)(options "")(descr ""))
+  (lib (name CPCModular)(type Legacy)(uri C:/Dropbox/InfoLaptop/Bread80/CPC/CPCModular/CPCModular.lib)(options "")(descr ""))
 )

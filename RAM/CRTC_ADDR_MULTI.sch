@@ -935,7 +935,7 @@ F 1 "74LS00" H 1050 4134 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1050 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1050 3900 50  0001 C CNN
 	3    1050 3900
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	1150 5000 1150 5100
@@ -964,7 +964,7 @@ Text Label 9000 5800 0    50   ~ 0
 RAMA4
 Text Label 9000 4600 0    50   ~ 0
 RAMA5
-Text Label 9000 4300 0    50   ~ 0
+Text Label 9000 5100 0    50   ~ 0
 RAMA7
 Text Label 9000 5700 0    50   ~ 0
 RAMA6
@@ -974,17 +974,17 @@ Text Label 9000 5400 0    50   ~ 0
 RAMA9
 Text Label 9000 5500 0    50   ~ 0
 RAMA10
-Text Label 9000 4200 0    50   ~ 0
+Text Label 9000 5200 0    50   ~ 0
 RAMA11
 Text Label 9000 4900 0    50   ~ 0
 RAMA12
-Text Label 9000 4100 0    50   ~ 0
+Text Label 9000 5000 0    50   ~ 0
 RAMA14
 Text Label 9000 4800 0    50   ~ 0
 RAMA13
 Text Label 9000 5300 0    50   ~ 0
 RAMA15
-Text Label 9000 5000 0    50   ~ 0
+Text Label 9000 4100 0    50   ~ 0
 RAMA16
 $Comp
 L power:+5V #PWR?
@@ -1014,22 +1014,22 @@ F 3 "" H 9850 6100 50  0001 C CNN
 	1    9850 6100
 	1    0    0    -1  
 $EndComp
-Text Label 10350 4800 0    50   ~ 0
-RAMD0
-Text Label 10350 4700 0    50   ~ 0
-RAMD1
-Text Label 10350 4600 0    50   ~ 0
-RAMD2
-Text Label 10350 4500 0    50   ~ 0
-RAMD3
-Text Label 10350 4400 0    50   ~ 0
-RAMD4
-Text Label 10350 4100 0    50   ~ 0
-RAMD5
-Text Label 10350 4200 0    50   ~ 0
-RAMD6
-Text Label 10350 4300 0    50   ~ 0
-RAMD7
+Text Label 10450 4400 0    50   ~ 0
+RD0
+Text Label 10450 4300 0    50   ~ 0
+RD1
+Text Label 10450 4500 0    50   ~ 0
+RD2
+Text Label 10450 4200 0    50   ~ 0
+RD3
+Text Label 10450 4600 0    50   ~ 0
+RD4
+Text Label 10450 4100 0    50   ~ 0
+RD5
+Text Label 10450 4700 0    50   ~ 0
+RD6
+Text Label 10450 4800 0    50   ~ 0
+RD7
 Wire Wire Line
 	10600 4100 10350 4100
 Wire Wire Line
@@ -1073,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5700 9000 5700
 Text GLabel 10700 3950 2    50   BiDi ~ 0
-RAMD[0..7]
+RD[0..7]
 Text HLabel 10700 3850 1    50   BiDi ~ 0
 RAMD
 Wire Wire Line
@@ -1141,9 +1141,9 @@ Wire Wire Line
 Text HLabel 3050 6100 0    50   Input ~ 0
 RAMA16
 Text HLabel 3050 5050 0    50   Input ~ 0
-A15OUT
+RAMA15
 Text HLabel 3050 5750 0    50   Input ~ 0
-A14OUT
+RAMA14
 Wire Wire Line
 	3050 5050 4200 5050
 Wire Wire Line
@@ -1192,9 +1192,9 @@ Wire Wire Line
 	9350 5800 9000 5800
 Wire Wire Line
 	9000 5900 9350 5900
-Text Label 9000 5200 0    50   ~ 0
+Text Label 9000 4200 0    50   ~ 0
 RAMA17
-Text Label 9000 5100 0    50   ~ 0
+Text Label 9000 4300 0    50   ~ 0
 RAMA18
 $Comp
 L 74xx:74LS00 IC110

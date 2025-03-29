@@ -161,8 +161,6 @@ Text HLabel 3150 5500 2    50   Input ~ 0
 XTAL
 Text HLabel 1850 3200 0    50   Output ~ 0
 ~CPU_ADDR
-Text HLabel 1850 3300 0    50   Output ~ 0
-~CAS_ADDR
 Text HLabel 1850 3400 0    50   Output ~ 0
 MA0_CCLK
 Text HLabel 1850 3600 0    50   Output ~ 0
@@ -231,8 +229,6 @@ Wire Wire Line
 	1950 3050 1850 3050
 Wire Wire Line
 	1850 3200 1950 3200
-Wire Wire Line
-	1950 3300 1850 3300
 Wire Wire Line
 	1850 3400 1950 3400
 Wire Wire Line
@@ -351,8 +347,6 @@ Text HLabel 6200 5500 2    50   Input ~ 0
 XTAL
 Text HLabel 4900 3200 0    50   Output ~ 0
 ~CPU_ADDR
-Text HLabel 4900 3300 0    50   Output ~ 0
-~CAS_ADDR
 Text HLabel 4900 3400 0    50   Output ~ 0
 MA0_CCLK
 Text HLabel 4900 3600 0    50   Output ~ 0
@@ -421,8 +415,6 @@ Wire Wire Line
 	5000 3050 4900 3050
 Wire Wire Line
 	4900 3200 5000 3200
-Wire Wire Line
-	5000 3300 4900 3300
 Wire Wire Line
 	4900 3400 5000 3400
 Wire Wire Line
@@ -570,4 +562,6 @@ F 3 "http://www.cpcwiki.eu/forum/amstrad-cpc-hardware/gate-array-decapped!/msg12
 	1    2500 2300
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1950 3300
+NoConn ~ 5000 3300
 $EndSCHEMATC

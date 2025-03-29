@@ -1,0 +1,463 @@
+106908803631205
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1836299 8A 320V
+phoenix_contact connector MCV_01x02_G_5.08mm
+0
+2
+2
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_2-GF-5.08_1x02_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/2-GF-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847615 8A 320V
+phoenix_contact connector MCV_01x02_GF_5.08mm
+0
+2
+2
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_2-GF-5.08_1x02_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/2-GF-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847615 8A 320V
+phoenix_contact connector MCV_01x02_GF_5.08mm_MH
+0
+2
+2
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-G-5.08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1836309 8A 320V
+phoenix_contact connector MCV_01x03_G_5.08mm
+0
+3
+3
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_3-GF-5.08_1x03_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-GF-5.08; number of pins: 03; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847628 8A 320V
+phoenix_contact connector MCV_01x03_GF_5.08mm
+0
+3
+3
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_3-GF-5.08_1x03_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-GF-5.08; number of pins: 03; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847628 8A 320V
+phoenix_contact connector MCV_01x03_GF_5.08mm_MH
+0
+3
+3
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/4-G-5.08; number of pins: 04; pin pitch: 5.08mm; Vertical || order number: 1836312 8A 320V
+phoenix_contact connector MCV_01x04_G_5.08mm
+0
+4
+4
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_4-GF-5.08_1x04_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/4-GF-5.08; number of pins: 04; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847631 8A 320V
+phoenix_contact connector MCV_01x04_GF_5.08mm
+0
+4
+4
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_4-GF-5.08_1x04_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/4-GF-5.08; number of pins: 04; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847631 8A 320V
+phoenix_contact connector MCV_01x04_GF_5.08mm_MH
+0
+4
+4
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_5-G-5.08_1x05_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/5-G-5.08; number of pins: 05; pin pitch: 5.08mm; Vertical || order number: 1836325 8A 320V
+phoenix_contact connector MCV_01x05_G_5.08mm
+0
+5
+5
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_5-GF-5.08_1x05_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/5-GF-5.08; number of pins: 05; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847644 8A 320V
+phoenix_contact connector MCV_01x05_GF_5.08mm
+0
+5
+5
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_5-GF-5.08_1x05_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/5-GF-5.08; number of pins: 05; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847644 8A 320V
+phoenix_contact connector MCV_01x05_GF_5.08mm_MH
+0
+5
+5
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_6-G-5.08_1x06_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/6-G-5.08; number of pins: 06; pin pitch: 5.08mm; Vertical || order number: 1836338 8A 320V
+phoenix_contact connector MCV_01x06_G_5.08mm
+0
+6
+6
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_6-GF-5.08_1x06_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/6-GF-5.08; number of pins: 06; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847657 8A 320V
+phoenix_contact connector MCV_01x06_GF_5.08mm
+0
+6
+6
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_6-GF-5.08_1x06_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/6-GF-5.08; number of pins: 06; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847657 8A 320V
+phoenix_contact connector MCV_01x06_GF_5.08mm_MH
+0
+6
+6
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_7-G-5.08_1x07_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/7-G-5.08; number of pins: 07; pin pitch: 5.08mm; Vertical || order number: 1836341 8A 320V
+phoenix_contact connector MCV_01x07_G_5.08mm
+0
+7
+7
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_7-GF-5.08_1x07_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/7-GF-5.08; number of pins: 07; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847660 8A 320V
+phoenix_contact connector MCV_01x07_GF_5.08mm
+0
+7
+7
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_7-GF-5.08_1x07_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/7-GF-5.08; number of pins: 07; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847660 8A 320V
+phoenix_contact connector MCV_01x07_GF_5.08mm_MH
+0
+7
+7
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_8-G-5.08_1x08_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/8-G-5.08; number of pins: 08; pin pitch: 5.08mm; Vertical || order number: 1836354 8A 320V
+phoenix_contact connector MCV_01x08_G_5.08mm
+0
+8
+8
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_8-GF-5.08_1x08_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/8-GF-5.08; number of pins: 08; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847673 8A 320V
+phoenix_contact connector MCV_01x08_GF_5.08mm
+0
+8
+8
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_8-GF-5.08_1x08_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/8-GF-5.08; number of pins: 08; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847673 8A 320V
+phoenix_contact connector MCV_01x08_GF_5.08mm_MH
+0
+8
+8
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_9-G-5.08_1x09_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/9-G-5.08; number of pins: 09; pin pitch: 5.08mm; Vertical || order number: 1836367 8A 320V
+phoenix_contact connector MCV_01x09_G_5.08mm
+0
+9
+9
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_9-GF-5.08_1x09_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/9-GF-5.08; number of pins: 09; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847686 8A 320V
+phoenix_contact connector MCV_01x09_GF_5.08mm
+0
+9
+9
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_9-GF-5.08_1x09_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/9-GF-5.08; number of pins: 09; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847686 8A 320V
+phoenix_contact connector MCV_01x09_GF_5.08mm_MH
+0
+9
+9
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_10-G-5.08_1x10_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/10-G-5.08; number of pins: 10; pin pitch: 5.08mm; Vertical || order number: 1836370 8A 320V
+phoenix_contact connector MCV_01x10_G_5.08mm
+0
+10
+10
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_10-GF-5.08_1x10_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/10-GF-5.08; number of pins: 10; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847699 8A 320V
+phoenix_contact connector MCV_01x10_GF_5.08mm
+0
+10
+10
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_10-GF-5.08_1x10_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/10-GF-5.08; number of pins: 10; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847699 8A 320V
+phoenix_contact connector MCV_01x10_GF_5.08mm_MH
+0
+10
+10
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_11-G-5.08_1x11_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/11-G-5.08; number of pins: 11; pin pitch: 5.08mm; Vertical || order number: 1836383 8A 320V
+phoenix_contact connector MCV_01x11_G_5.08mm
+0
+11
+11
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_11-GF-5.08_1x11_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/11-GF-5.08; number of pins: 11; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847709 8A 320V
+phoenix_contact connector MCV_01x11_GF_5.08mm
+0
+11
+11
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_11-GF-5.08_1x11_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/11-GF-5.08; number of pins: 11; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847709 8A 320V
+phoenix_contact connector MCV_01x11_GF_5.08mm_MH
+0
+11
+11
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_12-G-5.08_1x12_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/12-G-5.08; number of pins: 12; pin pitch: 5.08mm; Vertical || order number: 1836396 8A 320V
+phoenix_contact connector MCV_01x12_G_5.08mm
+0
+12
+12
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_12-GF-5.08_1x12_P5.08mm_Vertical_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MCV_1,5/12-GF-5.08; number of pins: 12; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847712 8A 320V
+phoenix_contact connector MCV_01x12_GF_5.08mm
+0
+12
+12
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MCV_1,5_12-GF-5.08_1x12_P5.08mm_Vertical_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MCV_1,5/12-GF-5.08; number of pins: 12; pin pitch: 5.08mm; Vertical; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847712 8A 320V
+phoenix_contact connector MCV_01x12_GF_5.08mm_MH
+0
+12
+12
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/2-G-5.08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1836189 8A 320V
+phoenix_contact connector MC_01x02_G_5.08mm
+0
+2
+2
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_2-GF-5.08_1x02_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/2-GF-5.08; number of pins: 02; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847466 8A 320V
+phoenix_contact connector MC_01x02_GF_5.08mm
+0
+2
+2
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_2-GF-5.08_1x02_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/2-GF-5.08; number of pins: 02; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847466 8A 320V
+phoenix_contact connector MC_01x02_GF_5.08mm_MH
+0
+2
+2
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/3-G-5.08; number of pins: 03; pin pitch: 5.08mm; Angled || order number: 1836192 8A 320V
+phoenix_contact connector MC_01x03_G_5.08mm
+0
+3
+3
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_3-GF-5.08_1x03_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/3-GF-5.08; number of pins: 03; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847479 8A 320V
+phoenix_contact connector MC_01x03_GF_5.08mm
+0
+3
+3
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_3-GF-5.08_1x03_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/3-GF-5.08; number of pins: 03; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847479 8A 320V
+phoenix_contact connector MC_01x03_GF_5.08mm_MH
+0
+3
+3
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_4-G-5.08_1x04_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/4-G-5.08; number of pins: 04; pin pitch: 5.08mm; Angled || order number: 1836202 8A 320V
+phoenix_contact connector MC_01x04_G_5.08mm
+0
+4
+4
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_4-GF-5.08_1x04_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/4-GF-5.08; number of pins: 04; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847482 8A 320V
+phoenix_contact connector MC_01x04_GF_5.08mm
+0
+4
+4
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_4-GF-5.08_1x04_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/4-GF-5.08; number of pins: 04; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847482 8A 320V
+phoenix_contact connector MC_01x04_GF_5.08mm_MH
+0
+4
+4
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_5-G-5.08_1x05_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/5-G-5.08; number of pins: 05; pin pitch: 5.08mm; Angled || order number: 1836215 8A 320V
+phoenix_contact connector MC_01x05_G_5.08mm
+0
+5
+5
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_5-GF-5.08_1x05_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/5-GF-5.08; number of pins: 05; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847495 8A 320V
+phoenix_contact connector MC_01x05_GF_5.08mm
+0
+5
+5
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_5-GF-5.08_1x05_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/5-GF-5.08; number of pins: 05; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847495 8A 320V
+phoenix_contact connector MC_01x05_GF_5.08mm_MH
+0
+5
+5
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_6-G-5.08_1x06_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/6-G-5.08; number of pins: 06; pin pitch: 5.08mm; Angled || order number: 1836228 8A 320V
+phoenix_contact connector MC_01x06_G_5.08mm
+0
+6
+6
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_6-GF-5.08_1x06_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/6-GF-5.08; number of pins: 06; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847505 8A 320V
+phoenix_contact connector MC_01x06_GF_5.08mm
+0
+6
+6
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_6-GF-5.08_1x06_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/6-GF-5.08; number of pins: 06; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847505 8A 320V
+phoenix_contact connector MC_01x06_GF_5.08mm_MH
+0
+6
+6
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_7-G-5.08_1x07_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/7-G-5.08; number of pins: 07; pin pitch: 5.08mm; Angled || order number: 1836231 8A 320V
+phoenix_contact connector MC_01x07_G_5.08mm
+0
+7
+7
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_7-GF-5.08_1x07_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/7-GF-5.08; number of pins: 07; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847518 8A 320V
+phoenix_contact connector MC_01x07_GF_5.08mm
+0
+7
+7
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_7-GF-5.08_1x07_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/7-GF-5.08; number of pins: 07; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847518 8A 320V
+phoenix_contact connector MC_01x07_GF_5.08mm_MH
+0
+7
+7
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_8-G-5.08_1x08_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/8-G-5.08; number of pins: 08; pin pitch: 5.08mm; Angled || order number: 1836244 8A 320V
+phoenix_contact connector MC_01x08_G_5.08mm
+0
+8
+8
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_8-GF-5.08_1x08_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/8-GF-5.08; number of pins: 08; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847521 8A 320V
+phoenix_contact connector MC_01x08_GF_5.08mm
+0
+8
+8
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_8-GF-5.08_1x08_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/8-GF-5.08; number of pins: 08; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847521 8A 320V
+phoenix_contact connector MC_01x08_GF_5.08mm_MH
+0
+8
+8
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_9-G-5.08_1x09_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/9-G-5.08; number of pins: 09; pin pitch: 5.08mm; Angled || order number: 1836257 8A 320V
+phoenix_contact connector MC_01x09_G_5.08mm
+0
+9
+9
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_9-GF-5.08_1x09_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/9-GF-5.08; number of pins: 09; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847534 8A 320V
+phoenix_contact connector MC_01x09_GF_5.08mm
+0
+9
+9
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_9-GF-5.08_1x09_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/9-GF-5.08; number of pins: 09; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847534 8A 320V
+phoenix_contact connector MC_01x09_GF_5.08mm_MH
+0
+9
+9
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_10-G-5.08_1x10_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/10-G-5.08; number of pins: 10; pin pitch: 5.08mm; Angled || order number: 1836260 8A 320V
+phoenix_contact connector MC_01x10_G_5.08mm
+0
+10
+10
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_10-GF-5.08_1x10_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/10-GF-5.08; number of pins: 10; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847547 8A 320V
+phoenix_contact connector MC_01x10_GF_5.08mm
+0
+10
+10
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_10-GF-5.08_1x10_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/10-GF-5.08; number of pins: 10; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847547 8A 320V
+phoenix_contact connector MC_01x10_GF_5.08mm_MH
+0
+10
+10
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_11-G-5.08_1x11_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/11-G-5.08; number of pins: 11; pin pitch: 5.08mm; Angled || order number: 1836273 8A 320V
+phoenix_contact connector MC_01x11_G_5.08mm
+0
+11
+11
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_11-GF-5.08_1x11_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/11-GF-5.08; number of pins: 11; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847550 8A 320V
+phoenix_contact connector MC_01x11_GF_5.08mm
+0
+11
+11
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_11-GF-5.08_1x11_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/11-GF-5.08; number of pins: 11; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847550 8A 320V
+phoenix_contact connector MC_01x11_GF_5.08mm_MH
+0
+11
+11
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_12-G-5.08_1x12_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/12-G-5.08; number of pins: 12; pin pitch: 5.08mm; Angled || order number: 1836286 8A 320V
+phoenix_contact connector MC_01x12_G_5.08mm
+0
+12
+12
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange
+Generic Phoenix Contact connector footprint for: MC_1,5/12-GF-5.08; number of pins: 12; pin pitch: 5.08mm; Angled; threaded flange || order number: 1847563 8A 320V
+phoenix_contact connector MC_01x12_GF_5.08mm
+0
+12
+12
+Connector_Phoenix_MC_HighVoltage
+PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole
+Generic Phoenix Contact connector footprint for: MC_1,5/12-GF-5.08; number of pins: 12; pin pitch: 5.08mm; Angled; threaded flange; footprint includes mount hole for mounting screw: ISO 1481-ST 2.2x4.5 C or ISO 7049-ST 2.2x4.5 C (http://www.fasteners.eu/standards/ISO/7049/) || order number: 1847563 8A 320V
+phoenix_contact connector MC_01x12_GF_5.08mm_MH
+0
+12
+12

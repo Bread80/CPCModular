@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CPCIO-rescue)(type Legacy)(uri ${KIPRJMOD}/CPCIO-rescue.lib)(options "")(descr ""))
+  (lib (name CPCModular)(type Legacy)(uri C:/Dropbox/InfoLaptop/Bread80/CPC/CPCModular/CPCModular.lib)(options "")(descr ""))
 )
